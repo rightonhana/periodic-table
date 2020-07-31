@@ -6,7 +6,7 @@ import { elementsData } from "../../const/elementsData";
 import typeColor from "../../const/typeColor";
 import { ElementsData } from "../../types/ElementsData";
 
-export const Table: FC<TableProps> = ({width = 0, height = 0, ...props}) => {
+export const Table: FC<TableProps> = ({width = 0, height = 0, onElementClick, ...props}) => {
 /*      button:nth-child(72), button:nth-child(104) {
             grid-column-start: 4;
         }
@@ -43,7 +43,9 @@ export const Table: FC<TableProps> = ({width = 0, height = 0, ...props}) => {
             key={index}
             atomicNumber={element.atomicNumber}
             name={element.name} symbol={element.symbol}
-            color={typeColor[element.metalMetalloidNonmetal]}/>)}
+            color={typeColor[element.metalMetalloidNonmetal]}
+            onClick={() => onElementClick(element)}
+            />)}
         </div>
     )
 }

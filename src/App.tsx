@@ -1,10 +1,8 @@
 import React from 'react';
-import Table from './components/Table';
-import ElementInfo from './components/ElementInfo';
+import PeriodicTable from './components/PeriodicTable';
 
 export const App = () => <div>
-        <ElementInfo  name={"helium"} symbol={"w"} atomicNumber={2}/>
-        <Table width={10} height={10}/>
+        <PeriodicTable/>
     </div>
 
 export default App;

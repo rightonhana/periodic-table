@@ -7,17 +7,17 @@
   --element: var(--foreground);
   --text: var(--background);
   --data: var(--foreground);
-  --unknown: #ccc;
-  --alkali-metal: #C8A3C5;
-  --alkaline-earth-metal: #F59283;
-  --lan­thanide: #ED9CC1;
-  --metalloid: #F3E237;
-  --actinide: #96CCBD;
-  --transition-metal: #F6BE57;
-  --post-​transition-metal: #a1c88b;
-  --reactive-nonmetal: #D4DD68;
-  --noble-gas: #ED9E65;
-  --other: #fff;
+  --unknown: #9E9D24;
+  --alkali-metal: #6A1B9A;
+  --alkaline-earth-metal: #C62828;
+  --lan­thanide: #AD1457;
+  --metalloid: #00695C;
+  --actinide: #4527A0;
+  --transition-metal: #283593;
+  --post-​transition-metal: #1565C0;
+  --reactive-nonmetal: #0277BD;
+  --noble-gas: #00838F;
+  --other: #2E7D32;
 }
 
 /* Apply a light color scheme */

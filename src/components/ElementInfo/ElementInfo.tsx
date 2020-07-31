@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 import { css } from "emotion";
-import { elementsData } from "../../const/elementsData";
 import Element from "../Element/Element";
 import ElementInfoProps from "./ElementInfoProps";
 import Group from "../Group";
@@ -11,15 +10,7 @@ import AtomicNumber from "../AtomicNumber";
 import AtomicMass from "../AtomicMass";
 import State from "../State";
 
-export const ElementInfo: FC<ElementInfoProps> = ({
-  name = "",
-  symbol = "",
-  atomicNumber = 0,
-  ...props
-}) => {
-  const infoToRender = elementsData.find((element) => element.symbol === symbol);
-  return (
-    <div
+export const ElementInfo: FC<ElementInfoProps> = ({ element, ...props }) => <div
       className={css`
         position: absolute;
         top: 2vmin;
@@ -51,13 +42,13 @@ export const ElementInfo: FC<ElementInfoProps> = ({
           font-size: 1vw;
         `}
       >
-        <AtomicNumber number={infoToRender?.atomicNumber} />
-        <AtomicMass mass={infoToRender?.atomicMass} />
+        <AtomicNumber number={element.atomicNumber} />
+        <AtomicMass mass={element.atomicMass} />
         <Group group={18} />
         <Period period={1} />
         <Block block={"s"} />
-        <ElectronConfiguration configuration={"1s2"} />
-        <State state={infoToRender?.state} />
+        <ElectronConfiguration configuration={element.electronConfiguration} />
+        <State state={element.state} />
       </div>
       <div
         className={css`
@@ -71,12 +62,12 @@ export const ElementInfo: FC<ElementInfoProps> = ({
           }
         `}
       >
-        <p>{name.toUpperCase()} INFORMATION</p>
+        <p>{element.name.toUpperCase()} INFORMATION</p>
         <Element
-          name={name}
-          symbol={symbol}
-          atomicNumber={atomicNumber}
-          color={"--unknown"}
+          name={element.name}
+          symbol={element.symbol}
+          atomicNumber={element.atomicNumber}
+          color={element.metalMetalloidNonmetal}
         />
       </div>
       <div
@@ -87,8 +78,9 @@ export const ElementInfo: FC<ElementInfoProps> = ({
           align-items: flex-start;
           font-size: 1vw;
         `}
-      >Classification: {infoToRender?.metalMetalloidNonmetal}</div>
+      >
+        Classification: {element.metalMetalloidNonmetal}
+      </div>
     </div>
-  );
-};
+
 export default ElementInfo;

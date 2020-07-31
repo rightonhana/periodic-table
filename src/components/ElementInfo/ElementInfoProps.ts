@@ -1,7 +1,7 @@
+import { ElementsData } from "../../types/ElementsData";
+
 export interface ElementInfoProps {
-    name: string;
-    symbol: string;
-    atomicNumber: number;
+    element: ElementsData;
 }
 
 export default ElementInfoProps;
