@@ -7,18 +7,24 @@ import typeColor from "../../const/typeColor";
 import { ElementsData } from "../../types/ElementsData";
 
 export const Table: FC<TableProps> = ({width = 0, height = 0, ...props}) => {
-/**div:nth-child(72), div:nth-child(104) {
+/*      button:nth-child(72), button:nth-child(104) {
             grid-column-start: 4;
-        } 
-        
-        grid-row-start: 10;*/
+        }
 
-         /**tabIndex={index} TODO:*/
+        button:nth-child(94) {
+            grid-row-start: 9;
+        }
+
+        button:nth-child(108) {
+            grid-row-start: 10;
+        }*/
     return (
         <div className={css`
         display: grid;
         grid-template-columns: repeat(18, 1fr);
         grid-gap: 0;
+        position: relative;
+        margin: 5rem 0 0 3rem;
 
         button:nth-child(2) {
             grid-column-start: -2;

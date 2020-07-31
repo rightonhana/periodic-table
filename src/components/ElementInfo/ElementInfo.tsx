@@ -18,14 +18,14 @@ export const ElementInfo: FC<ElementInfoProps> = ({
   ...props
 }) => {
   const infoToRender = elementsData.find((element) => element.symbol === symbol);
-
   return (
     <div
       className={css`
-        border: 1px dotted var(--element);
+        position: absolute;
+        top: 2vmin;
+        left: 33vmin;
         width: 100vmin;
         height: 30vmin;
-        margin-left: 30vmin;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -71,7 +71,7 @@ export const ElementInfo: FC<ElementInfoProps> = ({
           }
         `}
       >
-        <p>Element Information</p>
+        <p>{name.toUpperCase()} INFORMATION</p>
         <Element
           name={name}
           symbol={symbol}
@@ -79,7 +79,15 @@ export const ElementInfo: FC<ElementInfoProps> = ({
           color={"#fff"}
         />
       </div>
-      <div>Classification: {infoToRender?.metalMetalloidNonmetal}</div>
+      <div
+        className={css`
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: flex-start;
+          font-size: 1vw;
+        `}
+      >Classification: {infoToRender?.metalMetalloidNonmetal}</div>
     </div>
   );
 };

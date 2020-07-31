@@ -16,7 +16,7 @@ export const Hexagon: FC<HexagonProps> = ({color, ...props}) => <button classNam
       outline: inherit;
       height: 10vmin;
       width: 10vmin;
-      color: var(--text);
+      color: inherit;
       display: flex;
       clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
       flex-direction: column;
@@ -25,7 +25,7 @@ export const Hexagon: FC<HexagonProps> = ({color, ...props}) => <button classNam
       cursor: pointer;
       user-select: none;
       :hover {
-        color: blue;
+        background-color: blue;
       }
     `
   } {...props}/>
