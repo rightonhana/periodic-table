@@ -76,7 +76,7 @@ export const ElementInfo: FC<ElementInfoProps> = ({
           name={name}
           symbol={symbol}
           atomicNumber={atomicNumber}
-          color={"#fff"}
+          color={"--unknown"}
         />
       </div>
       <div

@@ -24,8 +24,10 @@ export const Hexagon: FC<HexagonProps> = ({color, ...props}) => <button classNam
       align-items: center;
       cursor: pointer;
       user-select: none;
-      :hover {
-        background-color: blue;
+
+      :hover, :focus {
+        background-color: var(${color});
+        color: var(--element);
       }
     `
   } {...props}/>
