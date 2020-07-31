@@ -1,9 +1,7 @@
 import React, {FC} from "react";
-//import {css} from "emotion";
 import BlockProps from "./BlockProps";
+import Info from "../Info";
 
-export const Block: FC<BlockProps> = ({block = "s", ...props}) => <div {...props}>
-      Block: {block}
-  </div>
+export const Block: FC<BlockProps> = ({block = "s", ...props}) => <Info title={"Block"} value={block} {...props}/>
 
 export default Block;

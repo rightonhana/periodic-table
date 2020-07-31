@@ -10,8 +10,8 @@ export const PeriodicTable: FC<{}> = () => {
     const setInfo = (element: ElementsData) => setState(element);
 
     return (<div>
-        <ElementInfo element={state}/>
         <Table width={10} height={10} onElementClick={setInfo} />
+        <ElementInfo element={state}/>
     </div>)
 }
 

@@ -33,7 +33,7 @@ export const ElementInfo: FC<ElementInfoProps> = ({ element, ...props }) => <div
       `}
       {...props}
     >
-      <div
+      <section
         className={css`
           display: flex;
           flex-direction: column;
@@ -49,13 +49,14 @@ export const ElementInfo: FC<ElementInfoProps> = ({ element, ...props }) => <div
         <Block block={"s"} />
         <ElectronConfiguration configuration={element.electronConfiguration} />
         <State state={element.state} />
-      </div>
+      </section>
       <div
         className={css`
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
           align-items: center;
+          width: 15vmin;
           color: var(--text);
           p {
             color: var(--data);
@@ -70,7 +71,7 @@ export const ElementInfo: FC<ElementInfoProps> = ({ element, ...props }) => <div
           color={element.metalMetalloidNonmetal}
         />
       </div>
-      <div
+      <section
         className={css`
           display: flex;
           flex-direction: column;
@@ -80,7 +81,7 @@ export const ElementInfo: FC<ElementInfoProps> = ({ element, ...props }) => <div
         `}
       >
         Classification: {element.metalMetalloidNonmetal}
-      </div>
+      </section>
     </div>
 
 export default ElementInfo;
