@@ -20,15 +20,15 @@ export const Table: FC<TableProps> = ({width = 0, height = 0, ...props}) => {
         grid-template-columns: repeat(18, 1fr);
         grid-gap: 0;
 
-        div:nth-child(2) {
+        button:nth-child(2) {
             grid-column-start: -2;
         }
 
-        div:nth-child(5), div:nth-child(13) {
+        button:nth-child(5), button:nth-child(13) {
             grid-column-start: 13;
         }
 
-        div:nth-child(94), div:nth-child(108) {
+        button:nth-child(94), button:nth-child(108) {
             grid-column-start: 5;
         }
       `}>
