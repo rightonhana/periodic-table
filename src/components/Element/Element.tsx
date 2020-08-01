@@ -9,18 +9,18 @@ export const Element: FC<ElementProps> = ({name = "", symbol = "", atomicNumber 
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 1vmin 0 .5vmin 0;
+        margin: 2rem 0 .5rem 0;
         `}>
         <div className={css`
         font-weight: bold;
-            font-size: 1.5vmin;
+            font-size: 3.5rem;
         `}>{atomicNumber}</div>
         <div className={css`
-            font-size: 1vmin;
+            font-size: 2.5rem;
         `}>{name.toUpperCase()}</div>
     </div>
     <div className={css`
-        font-size: 3vmin;
+        font-size: 8rem;
         font-weight: bold;
     `}>{symbol[0].toUpperCase() + symbol.slice(1)}</div>
 </Hexagon>

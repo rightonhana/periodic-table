@@ -9,6 +9,7 @@ export const Info: FC<InfoProps> = ({title = "", value = "", ...props}) => <div 
   justify-content: center;
   align-items: center;
   width: inherit;
+  font-size: 4rem;
   margin: 1rem 0;
 `
 } {...props}>

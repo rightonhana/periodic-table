@@ -20,7 +20,7 @@ export const ElementInfo: FC<ElementInfoProps> = ({ element, ...props }) => <div
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.5vw;
+        font-size: 5rem;
         color: var(--data);
 
         div {
@@ -39,7 +39,6 @@ export const ElementInfo: FC<ElementInfoProps> = ({ element, ...props }) => <div
           flex-direction: column;
           justify-content: space-around;
           align-items: flex-start;
-          font-size: 1vw;
         `}
       >
         <AtomicNumber number={element.atomicNumber} />
@@ -56,7 +55,6 @@ export const ElementInfo: FC<ElementInfoProps> = ({ element, ...props }) => <div
           flex-direction: column;
           justify-content: flex-start;
           align-items: center;
-          width: 15vmin;
           color: var(--text);
           p {
             color: var(--data);
@@ -77,7 +75,7 @@ export const ElementInfo: FC<ElementInfoProps> = ({ element, ...props }) => <div
           flex-direction: column;
           justify-content: space-around;
           align-items: flex-start;
-          font-size: 1vw;
+          font-size: 4rem;
         `}
       >
         Classification: {element.metalMetalloidNonmetal}
