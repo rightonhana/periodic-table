@@ -1,7 +1,7 @@
 import React, {FC} from "react";
 import {css} from "emotion";
 import InfoProps from "./InfoProps";
-import Title from "../Title";
+import DataTitle from "../DataTitle";
 import Value from "../Value";
 
 export const Info: FC<InfoProps> = ({title = "", value = "", ...props}) => <div className={css`
@@ -13,7 +13,7 @@ export const Info: FC<InfoProps> = ({title = "", value = "", ...props}) => <div 
   margin: 1rem 0;
 `
 } {...props}>
-      <Title title={title}/>
+      <DataTitle title={title}/>
       <Value value={value}/>
 </div>
 
