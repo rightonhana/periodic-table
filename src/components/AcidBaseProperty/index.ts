@@ -1,0 +1,1 @@
+export { default, AcidBaseProperty } from "./AcidBaseProperty";
