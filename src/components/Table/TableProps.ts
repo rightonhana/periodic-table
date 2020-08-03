@@ -1,9 +1,9 @@
-import { ElementsData } from "../../types/ElementsData";
+import ElementData from "../../types/ElementData";
 
 export interface TableProps {
     width: number;
     height: number;
-    onElementClick: (element: ElementsData) => void;
+    onElementClick: (element: ElementData) => void;
 }
 
 export default TableProps;

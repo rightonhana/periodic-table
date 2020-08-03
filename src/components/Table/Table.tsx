@@ -4,7 +4,7 @@ import { css } from "emotion";
 import TableProps from "./TableProps";
 import { elementsData } from "../../const/elementsData";
 import typeColor from "../../const/typeColor";
-import { ElementsData } from "../../types/ElementsData";
+import ElementData from "../../types/ElementData";
 
 export const Table: FC<TableProps> = ({width = 0, height = 0, onElementClick, ...props}) => {
 /*      button:nth-child(72), button:nth-child(104) {
@@ -38,7 +38,7 @@ export const Table: FC<TableProps> = ({width = 0, height = 0, onElementClick, ..
             grid-column-start: 5;
         }
       `}>
-            {elementsData.map((element: ElementsData, index) => <Element
+            {elementsData.map((element: ElementData, index) => <Element
             tabIndex={element.atomicNumber}
             key={index}
             atomicNumber={element.atomicNumber}

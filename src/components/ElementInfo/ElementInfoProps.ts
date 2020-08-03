@@ -1,7 +1,7 @@
-import { ElementsData } from "../../types/ElementsData";
+import ElementData from "../../types/ElementData";
 
 export interface ElementInfoProps {
-    element: ElementsData;
+    element: ElementData;
 }
 
 export default ElementInfoProps;
