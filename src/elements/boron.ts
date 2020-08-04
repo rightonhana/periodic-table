@@ -12,10 +12,10 @@ export const boron: ElementData = {
     crystalStructure: CrystalStructures.RHO,
     electronConfiguration: "1s2 2s2 2p1",
     fusionTemperature: 2079,
-    group: 0,
+    group: 13,
     metalMetalloidNonmetal: "metalloid",
     name: "boron",
-    period: 0,
+    period: 2,
     special: false,
     state: States.SOLID,
     symbol: "b"

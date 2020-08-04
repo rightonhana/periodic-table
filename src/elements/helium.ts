@@ -12,10 +12,10 @@ export const helium: ElementData = {
     electronConfiguration: "1s2",
     fusionATM: 26,
     fusionTemperature: -272.2,
-    group: 0,
+    group: 18,
     metalMetalloidNonmetal: "noble gas",
     name: "helium",
-    period: 0,
+    period: 1,
     special: false,
     state: States.GAS,
     symbol: "he"

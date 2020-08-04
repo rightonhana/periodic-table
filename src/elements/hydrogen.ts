@@ -15,7 +15,7 @@ export const hydrogen: ElementData = {
     group: 1,
     metalMetalloidNonmetal: "reactive nonmetal",
     name: "hydrogen",
-    period: 0,
+    period: 1,
     special: false,
     state: States.GAS,
     symbol: "h"

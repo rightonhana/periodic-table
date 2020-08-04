@@ -11,10 +11,10 @@ export const neon: ElementData = {
     crystalStructure: CrystalStructures.FCC,
     electronConfiguration: "1s2 2s2 2p6",
     fusionTemperature: -248.67,
-    group: 0,
+    group: 18,
     metalMetalloidNonmetal: "noble gas",
     name: "neon",
-    period: 0,
+    period: 2,
     special: false,
     state: States.GAS,
     symbol: "ne"

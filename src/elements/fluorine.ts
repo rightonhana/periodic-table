@@ -12,10 +12,10 @@ export const fluorine: ElementData = {
     crystalStructure: CrystalStructures.SC,
     electronConfiguration: "1s2 2s2 2p5",
     fusionTemperature: -219.62,
-    group: 0,
+    group: 17,
     metalMetalloidNonmetal: "reactive nonmetal",
     name: "fluorine",
-    period: 0,
+    period: 2,
     special: false,
     state: States.GAS,
     symbol: "f"

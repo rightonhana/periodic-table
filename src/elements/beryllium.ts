@@ -15,7 +15,7 @@ export const beryllium: ElementData = {
     group: 2,
     metalMetalloidNonmetal: "alkaline earth metal",
     name: "beryllium",
-    period: 0,
+    period: 2,
     special: false,
     state: States.SOLID,
     symbol: "be"

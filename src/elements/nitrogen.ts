@@ -12,10 +12,10 @@ export const nitrogen: ElementData = {
     crystalStructure: CrystalStructures.HEX,
     electronConfiguration: "1s2 2s2 2p3",
     fusionTemperature: -218.4,
-    group: 0,
+    group: 15,
     metalMetalloidNonmetal: "reactive nonmetal",
     name: "nitrogen",
-    period: 0,
+    period: 2,
     special: false,
     state: States.GAS,
     symbol: "n"

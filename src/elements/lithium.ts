@@ -15,7 +15,7 @@ export const lithium: ElementData = {
     group: 1,
     metalMetalloidNonmetal: "alkali metal",
     name: "lithium",
-    period: 0,
+    period: 2,
     special: false,
     state: States.SOLID,
     symbol: "li"

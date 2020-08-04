@@ -12,10 +12,10 @@ export const carbon: ElementData = {
     crystalStructure: CrystalStructures.HEX,
     electronConfiguration: "1s2 2s2 2p2",
     fusionTemperature: 3652,
-    group: 0,
+    group: 14,
     metalMetalloidNonmetal: "reactive nonmetal",
     name: "carbon",
-    period: 0,
+    period: 2,
     special: false,
     state: States.SOLID,
     symbol: "c"
