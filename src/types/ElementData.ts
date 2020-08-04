@@ -14,7 +14,6 @@ export type ElementData = {
     fusionATM?: number;
     fusionTemperature: number;
     group: number;
-    meltingTemperature: number;
     metalMetalloidNonmetal: keyof typeof typeColor;
     name: string;
     period: number;

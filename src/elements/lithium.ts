@@ -13,7 +13,6 @@ export const lithium: ElementData = {
     electronConfiguration: "1s2 2s1",
     fusionTemperature: 180.54,
     group: 1,
-    meltingTemperature: 180.5,
     metalMetalloidNonmetal: "alkali metal",
     name: "lithium",
     period: 0,

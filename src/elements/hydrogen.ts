@@ -13,7 +13,6 @@ export const hydrogen: ElementData = {
     electronConfiguration: "1s1",
     fusionTemperature: -259.34,
     group: 1,
-    meltingTemperature: -259.16,
     metalMetalloidNonmetal: "reactive nonmetal",
     name: "hydrogen",
     period: 0,

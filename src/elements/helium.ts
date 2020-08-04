@@ -13,7 +13,6 @@ export const helium: ElementData = {
     fusionATM: 26,
     fusionTemperature: -272.2,
     group: 0,
-    meltingTemperature: -272.20,
     metalMetalloidNonmetal: "noble gas",
     name: "helium",
     period: 0,
