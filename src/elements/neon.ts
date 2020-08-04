@@ -17,7 +17,7 @@ export const neon: ElementData = {
     period: 2,
     special: false,
     state: States.GAS,
-    symbol: "ne"
+    symbol: "Ne"
 }
 
 export default neon;

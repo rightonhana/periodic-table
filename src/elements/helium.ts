@@ -18,7 +18,7 @@ export const helium: ElementData = {
     period: 1,
     special: false,
     state: States.GAS,
-    symbol: "he"
+    symbol: "He"
 };
 
 export default helium;

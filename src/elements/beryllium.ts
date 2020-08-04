@@ -18,7 +18,7 @@ export const beryllium: ElementData = {
     period: 2,
     special: false,
     state: States.SOLID,
-    symbol: "be"
+    symbol: "Be"
 };
 
 export default beryllium;

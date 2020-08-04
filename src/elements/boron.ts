@@ -18,7 +18,7 @@ export const boron: ElementData = {
     period: 2,
     special: false,
     state: States.SOLID,
-    symbol: "b"
+    symbol: "B"
 };
 
 export default boron;

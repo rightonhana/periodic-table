@@ -18,7 +18,7 @@ export const nitrogen: ElementData = {
     period: 2,
     special: false,
     state: States.GAS,
-    symbol: "n"
+    symbol: "N"
 };
 
 export default nitrogen;

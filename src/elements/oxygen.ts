@@ -18,7 +18,7 @@ export const oxygen: ElementData = {
     period: 2,
     special: false,
     state: States.GAS,
-    symbol: "o",
+    symbol: "O",
 };
 
 export default oxygen;

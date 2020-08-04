@@ -18,7 +18,7 @@ export const carbon: ElementData = {
     period: 2,
     special: false,
     state: States.SOLID,
-    symbol: "c"
+    symbol: "C"
 };
 
 export default carbon;

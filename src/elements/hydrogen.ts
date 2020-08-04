@@ -18,7 +18,7 @@ export const hydrogen: ElementData = {
     period: 1,
     special: false,
     state: States.GAS,
-    symbol: "h"
+    symbol: "H"
 };
 
 export default hydrogen;

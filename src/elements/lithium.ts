@@ -18,7 +18,7 @@ export const lithium: ElementData = {
     period: 2,
     special: false,
     state: States.SOLID,
-    symbol: "li"
+    symbol: "Li"
 };
 
 export default lithium;

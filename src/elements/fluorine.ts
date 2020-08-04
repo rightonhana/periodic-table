@@ -18,7 +18,7 @@ export const fluorine: ElementData = {
     period: 2,
     special: false,
     state: States.GAS,
-    symbol: "f"
+    symbol: "F"
 };
 
 export default fluorine;
