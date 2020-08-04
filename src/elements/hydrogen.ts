@@ -8,7 +8,7 @@ export const hydrogen: ElementData = {
     atomicMass: 1.00794,
     atomicNumber: 1,
     boilingTemperature: -252.87,
-    commonOxidationStates: 1,
+    commonOxidationStates: [1],
     crystalStructure: CrystalStructures.HEX,
     electronConfiguration: "1s1",
     fusionTemperature: -259.34,

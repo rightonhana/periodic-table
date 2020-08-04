@@ -8,7 +8,7 @@ export type ElementData = {
     atomicMass: number;
     atomicNumber: number;
     boilingTemperature: number;
-    commonOxidationStates?: number;
+    commonOxidationStates?: number[];
     crystalStructure: CrystalStructures;
     electronConfiguration: string;
     fusionATM?: number;

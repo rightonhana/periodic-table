@@ -8,7 +8,7 @@ export const beryllium: ElementData = {
     atomicMass: 9.012182,
     atomicNumber: 4,
     boilingTemperature: 2970,
-    commonOxidationStates: 2,
+    commonOxidationStates: [2],
     crystalStructure: CrystalStructures.HCP,
     electronConfiguration: "1s2 2s2",
     fusionTemperature: 1.278,

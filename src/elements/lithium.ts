@@ -8,7 +8,7 @@ export const lithium: ElementData = {
     atomicMass: 6.941,
     atomicNumber: 3,
     boilingTemperature: 1342,
-    commonOxidationStates: 1,
+    commonOxidationStates: [1],
     crystalStructure: CrystalStructures.BCC,
     electronConfiguration: "1s2 2s1",
     fusionTemperature: 180.54,
