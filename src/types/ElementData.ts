@@ -4,12 +4,12 @@ import States from "../enums/States";
 import typeColor from "../const/typeColor";
 
 export type ElementData = {
-    acidBaseProperties: AcidBaseProperties;
+    acidBaseProperties?: AcidBaseProperties;
     atomicMass: number;
     atomicNumber: number;
     boilingTemperature: number;
     commonOxidationStates?: number[];
-    crystalStructure: CrystalStructures;
+    crystalStructure?: CrystalStructures;
     electronConfiguration: string;
     fusionATM?: number;
     fusionTemperature: number;
@@ -20,6 +20,8 @@ export type ElementData = {
     special: boolean;
     state: States;
     symbol: string;
+    //TODO: block: p, s, f, d
+    //TODO: density
 }
 
 export default ElementData;
