@@ -7,12 +7,12 @@ export type ElementData = {
     acidBaseProperties?: AcidBaseProperties;
     atomicMass: number;
     atomicNumber: number;
-    boilingTemperature: number;
+    boilingTemperature?: number;
     commonOxidationStates?: number[];
     crystalStructure?: CrystalStructures;
     electronConfiguration: string;
     fusionATM?: number;
-    fusionTemperature: number;
+    fusionTemperature?: number;
     group: number;
     metalMetalloidNonmetal: keyof typeof typeColor;
     name: string;
@@ -22,6 +22,7 @@ export type ElementData = {
     symbol: string;
     //TODO: block: p, s, f, d
     //TODO: density
+    //ElectronConfiguration /ElectronConfigurationSemantic
 }
 
 export default ElementData;
