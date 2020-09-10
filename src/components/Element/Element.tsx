@@ -22,7 +22,7 @@ export const Element: FC<ElementProps> = ({name = "", symbol = "", atomicNumber 
     <div className={css`
         font-size: 8rem;
         font-weight: bold;
-    `}>{symbol[0].toUpperCase() + symbol.slice(1)}</div>
+    `}>{symbol}</div>
 </Hexagon>
 
 export default Element;

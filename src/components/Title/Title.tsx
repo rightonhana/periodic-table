@@ -4,8 +4,8 @@ import TitleProps from "./TitleProps";
 
 export const Title: FC<TitleProps> = ({title = "", ...props}) => <strong className={css`
     font-weight: bold;
-    user-select: none;
+    font-size: 5rem;
 `}
-    {...props}>{title.toUpperCase()} :</strong>
+    {...props}>{title.toUpperCase()}</strong>
 
 export default Title;
