@@ -14,7 +14,7 @@ export const darmstadtium: ElementData = {
 	period: 7,
 	special: true,
 	state: States.SOLID,
-	symbol: "ds"
+	symbol: "Ds"
 };
 
 export default darmstadtium;
