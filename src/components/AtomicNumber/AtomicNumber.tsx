@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import {FC} from "react";
 import AtomicNumberProps from "./AtomicNumberProps";
 import Info from "../Info";
 

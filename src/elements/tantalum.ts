@@ -4,21 +4,21 @@ import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
 
 export const tantalum: ElementData = {
-    acidBaseProperties: AcidBaseProperties.ACID,
-    atomicMass: 180.9479,
-    atomicNumber: 73,
-    boilingTemperature: 5425,
-    commonOxidationStates: [5],
-    crystalStructure: CrystalStructures.BCC,
-    electronConfiguration: "[Xe] 6s2 4f14 5d3",
-    fusionTemperature: 2996,
-    group: 5,
-    metalMetalloidNonmetal: "transition metal",
-    name: "tantalum",
-    period: 6, //TODO: REVIEW groups
-    special: false,
-    state: States.SOLID,
-    symbol: "Ta",
+	acidBaseProperties: AcidBaseProperties.ACID,
+	atomicMass: 180.9479,
+	atomicNumber: 73,
+	boilingTemperature: 5425,
+	commonOxidationStates: [5],
+	crystalStructure: CrystalStructures.BCC,
+	electronConfiguration: "[Xe] 6s2 4f14 5d3",
+	fusionTemperature: 2996,
+	group: 5,
+	metalMetalloidNonmetal: "transition metal",
+	name: "tantalum",
+	period: 6, //TODO: REVIEW groups
+	special: false,
+	state: States.SOLID,
+	symbol: "Ta",
 };
 
 export default tantalum;

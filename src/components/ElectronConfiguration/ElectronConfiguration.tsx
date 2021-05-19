@@ -1,5 +1,5 @@
-import React, {FC} from "react";
-//import {css} from "emotion";
+import {FC} from "react";
+//import {css} from "@emotion/css";
 import ElectronConfigurationProps from "./ElectronConfigurationProps";
 import Info from "../Info";
 

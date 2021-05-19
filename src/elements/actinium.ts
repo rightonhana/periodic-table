@@ -4,21 +4,21 @@ import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
 
 export const actinium: ElementData = {
-    acidBaseProperties: AcidBaseProperties.ACID,
-    atomicMass: 227.028,
-    atomicNumber: 89,
-    boilingTemperature: 3200,
-    commonOxidationStates: [3],
-    crystalStructure: CrystalStructures.FCC,
-    electronConfiguration: "[Rn] 7s2 6d1",
-    fusionTemperature: 1050,
-    group: 3,
-    metalMetalloidNonmetal: "actinide",
-    name: "actinium",
-    period: 7,
-    special: false,
-    state: States.SOLID,
-    symbol: "Ac"
+	acidBaseProperties: AcidBaseProperties.ACID,
+	atomicMass: 227.028,
+	atomicNumber: 89,
+	boilingTemperature: 3200,
+	commonOxidationStates: [3],
+	crystalStructure: CrystalStructures.FCC,
+	electronConfiguration: "[Rn] 7s2 6d1",
+	fusionTemperature: 1050,
+	group: 3,
+	metalMetalloidNonmetal: "actinide",
+	name: "actinium",
+	period: 7,
+	special: false,
+	state: States.SOLID,
+	symbol: "Ac"
 };
 
 export default actinium;

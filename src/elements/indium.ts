@@ -4,21 +4,21 @@ import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
 
 export const indium: ElementData = {
-    acidBaseProperties: AcidBaseProperties.ACID_BASE,
-    atomicMass: 114.82,
-    atomicNumber: 49,
-    boilingTemperature: 2080,
-    commonOxidationStates: [3],
-    crystalStructure: CrystalStructures.TETR,
-    electronConfiguration: "[Kr] 5s2 4d10 5p1",
-    fusionTemperature: 156.61,
-    group: 13,
-    metalMetalloidNonmetal: "post-​transition metal",
-    name: "indium",
-    period: 5,
-    special: false,
-    state: States.SOLID,
-    symbol: "In"
+	acidBaseProperties: AcidBaseProperties.ACID_BASE,
+	atomicMass: 114.82,
+	atomicNumber: 49,
+	boilingTemperature: 2080,
+	commonOxidationStates: [3],
+	crystalStructure: CrystalStructures.TETR,
+	electronConfiguration: "[Kr] 5s2 4d10 5p1",
+	fusionTemperature: 156.61,
+	group: 13,
+	metalMetalloidNonmetal: "post-​transition metal",
+	name: "indium",
+	period: 5,
+	special: false,
+	state: States.SOLID,
+	symbol: "In"
 };
 
 export default indium;

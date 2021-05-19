@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import {FC} from "react";
 import PeriodProps from "./PeriodProps";
 import Info from "../Info";
 

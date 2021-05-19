@@ -1,43 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 :root {
-  --background: #0F0E17;
-  --foreground: #DDD;
-  --body: var(--background);
-  --element: var(--foreground);
-  --text: var(--background);
-  --data: var(--foreground);
-  --unknown: #9E9D24;
-  --alkali-metal: #6A1B9A;
-  --alkaline-earth-metal: #C62828;
-  --lan­thanide: #AD1457;
-  --metalloid: #00695C;
-  --actinide: #4527A0;
-  --transition-metal: #283593;
-  --post-​transition-metal: #1565C0;
-  --reactive-nonmetal: #0277BD;
-  --noble-gas: #00838F;
-  --other: #2E7D32;
+	--background: #0F0E17;
+	--foreground: #DDD;
+	--body: var(--background);
+	--element: var(--foreground);
+	--text: var(--background);
+	--data: var(--foreground);
+	--unknown: #9E9D24;
+	--alkali-metal: #6A1B9A;
+	--alkaline-earth-metal: #C62828;
+	--lan­thanide: #AD1457;
+	--metalloid: #00695C;
+	--actinide: #4527A0;
+	--transition-metal: #283593;
+	--post-​transition-metal: #1565C0;
+	--reactive-nonmetal: #0277BD;
+	--noble-gas: #00838F;
+	--other: #2E7D32;
 }
 
 /* Apply a light color scheme */
 @media (prefers-color-scheme: light) {
-  :root {
-    --body: var(--foreground);
-    --element: var(--background);
-    --text: var(--foreground);
-    --data: var(--background);
-  }
+	:root {
+		--body: var(--foreground);
+		--element: var(--background);
+		--text: var(--foreground);
+		--data: var(--background);
+	}
 }
 
 html {
-  font-size: 16px;
+	font-size: 16px;
 }
 
 body {
-  background-color: var(--body);
-  color: var(--text);
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
+	background-color: var(--body);
+	color: var(--text);
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
 }

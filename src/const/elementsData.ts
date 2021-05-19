@@ -1,6 +1,5 @@
-import { ElementsData } from "../types/ElementsData";
 
-export const elementsData: ElementsData[] = [
+export const elementsData/*: ElementsData[]*/ = [
     {
         atomicNumber: 1,
         group: 1,

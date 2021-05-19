@@ -1,6 +1,6 @@
 export interface GroupProps {
-    /** Group Number */
-    group?: number;
+	/** Group Number */
+	group?: number;
 }
 
 export default GroupProps;

@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import {FC} from "react";
 import StateProps from "./StateProps";
 import Info from "../Info";
 
