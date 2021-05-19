@@ -14,7 +14,7 @@ export const roentgenium: ElementData = {
 	period: 7,
 	special: true,
 	state: States.SOLID,
-	symbol: "ds"
+	symbol: "rg"
 };
 
 export default roentgenium;
