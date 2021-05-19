@@ -14,7 +14,7 @@ export const hassium: ElementData = {
 	period: 7,
 	special: true,
 	state: States.SOLID,
-	symbol: "hs"
+	symbol: "Hs"
 };
 
 export default hassium;
