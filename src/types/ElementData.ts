@@ -13,13 +13,14 @@ export type ElementData = {
 	electronConfiguration: string;
 	fusionATM?: number;
 	fusionTemperature?: number;
-	group: number;
+	group: number | string;
 	metalMetalloidNonmetal: keyof typeof typeColor;
 	name: string;
 	period: number;
 	special: boolean;
 	state: States;
 	symbol: string;
+	//TODO: Electrons per shell: for animation
 	//TODO: block: p, s, f, d
 	//TODO: density
 	//ElectronConfiguration /ElectronConfigurationSemantic
