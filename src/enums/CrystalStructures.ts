@@ -1,15 +1,15 @@
 export enum CrystalStructures {
 	BCC = "body-centered cubic",
+	DC = "diamond cubic",
+	DHCP = "double hexagonal close packed",
 	FCC = "face-centered cubic",
 	HCP = "hexagonal close packed",
-	DHCP = "double hexagonal close packed",
-	ORTH = "orthorhombic",
-	TETR = "tetragonal",
-	RHO = "rhombohedral",
 	HEX = "hexagonal",
-	SC = "simple cubic",
-	DC = "diamond cubic",
 	MON = "monoclinic",
+	ORTH = "orthorhombic",
+	RHO = "rhombohedral",
+	SC = "simple cubic",
+	TETR = "tetragonal",
 	UK = "unknown or uncertain"
 }
 

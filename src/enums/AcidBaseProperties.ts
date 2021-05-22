@@ -1,7 +1,7 @@
 export enum AcidBaseProperties {
 	ACID = "acid",
-	BASE = "base",
 	ACID_BASE = "acid-base",
+	BASE = "base",
 	NEUTRAL = "neutral",
 	UNKNOWN = "unknown"
 }
