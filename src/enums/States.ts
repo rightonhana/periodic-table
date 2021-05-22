@@ -1,7 +1,8 @@
 export enum States {
 	SOLID = "solid",
 	LIQUID = "liquid",
-	GAS = "gas"
+	GAS = "gas",
+	UNKNOWN = "unknown"
 }
 
 export default States;
