@@ -11,6 +11,7 @@ export const potassium: ElementData = {
 	commonOxidationStates: [1],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Ar] 4s1",
+	electronsPerShell: [2, 8, 8, 1],
 	fusionTemperature: 63.25,
 	group: 1,
 	metalMetalloidNonmetal: "alkali metal",

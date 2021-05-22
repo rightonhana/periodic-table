@@ -11,6 +11,7 @@ export const polonium: ElementData = {
 	commonOxidationStates: [2, 4],
 	crystalStructure: CrystalStructures.SC,
 	electronConfiguration: "[Xe] 6s2 4f14 5d10 6p4",
+	electronsPerShell: [2, 8, 18, 32, 18, 6],
 	fusionTemperature: 254,
 	group: 16,
 	metalMetalloidNonmetal: "post-​transition metal",

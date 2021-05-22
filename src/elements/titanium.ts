@@ -11,6 +11,7 @@ export const titanium: ElementData = {
 	commonOxidationStates: [2, 3, 4],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Ar] 4s2 3d2",
+	electronsPerShell: [2, 8, 10, 2],
 	fusionTemperature: 1660,
 	group: 4,
 	metalMetalloidNonmetal: "transition metal",

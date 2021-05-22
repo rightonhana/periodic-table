@@ -8,6 +8,7 @@ export const seaborgium: ElementData = {
 	commonOxidationStates: [5, 6],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Rn] 7s2 5f14 6d4",
+	electronsPerShell: [2, 8, 18, 32, 32, 12, 2],
 	group: 6,
 	metalMetalloidNonmetal: "transition metal",
 	name: "seaborgium",

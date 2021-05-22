@@ -11,6 +11,7 @@ export const indium: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.TETR,
 	electronConfiguration: "[Kr] 5s2 4d10 5p1",
+	electronsPerShell: [2, 8, 18, 18, 3],
 	fusionTemperature: 156.61,
 	group: 13,
 	metalMetalloidNonmetal: "post-​transition metal",

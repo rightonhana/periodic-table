@@ -11,6 +11,7 @@ export const tungsten: ElementData = {
 	commonOxidationStates: [2, 3, 4, 5, 6],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Xe] 6s2 4f14 5d4",
+	electronsPerShell: [2, 8, 18, 32, 12, 2],
 	fusionTemperature: 3410,
 	group: 6,
 	metalMetalloidNonmetal: "transition metal",

@@ -11,6 +11,7 @@ export const iridium: ElementData = {
 	commonOxidationStates: [2, 3, 4, 6],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Xe] 6s2 4f14 5d7",
+	electronsPerShell: [2, 8, 18, 32, 15, 2],
 	fusionTemperature: 2410,
 	group: 9,
 	metalMetalloidNonmetal: "transition metal",

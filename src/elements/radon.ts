@@ -10,6 +10,7 @@ export const radon: ElementData = {
 	boilingTemperature: -61.8,
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Xe] 6s2 4f14 5d10 6p6",
+	electronsPerShell: [2, 8, 18, 32, 18, 8],
 	fusionTemperature: -71,
 	group: 18,
 	metalMetalloidNonmetal: "noble gas",

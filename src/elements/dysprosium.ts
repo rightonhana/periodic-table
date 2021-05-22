@@ -11,6 +11,7 @@ export const dysprosium: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Xe] 6s2 4f10",
+	electronsPerShell: [2, 8, 18, 28, 8, 2],
 	fusionTemperature: 1412,
 	group: "3 IX",
 	metalMetalloidNonmetal: "lan­thanide",

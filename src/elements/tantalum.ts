@@ -11,11 +11,12 @@ export const tantalum: ElementData = {
 	commonOxidationStates: [5],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Xe] 6s2 4f14 5d3",
+	electronsPerShell: [2, 8, 18, 32, 11, 2],
 	fusionTemperature: 2996,
 	group: 5,
 	metalMetalloidNonmetal: "transition metal",
 	name: "tantalum",
-	period: 6, //TODO: REVIEW groups
+	period: 6,
 	special: false,
 	state: States.SOLID,
 	symbol: "Ta",

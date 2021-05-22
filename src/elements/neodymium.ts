@@ -11,6 +11,7 @@ export const neodymium: ElementData = {
 	commonOxidationStates: [3, 4],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Xe] 6s2 4f4",
+	electronsPerShell: [2, 8, 18, 22, 8, 2],
 	fusionTemperature: 1010,
 	group: "3 III",
 	metalMetalloidNonmetal: "lan­thanide",

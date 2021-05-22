@@ -11,6 +11,7 @@ export const silicon: ElementData = {
 	commonOxidationStates: [4],
 	crystalStructure: CrystalStructures.DC,
 	electronConfiguration: "[Ne] 3s2 3p2",
+	electronsPerShell: [2, 8, 4],
 	fusionTemperature: 1410,
 	group: 14,
 	metalMetalloidNonmetal: "metalloid",

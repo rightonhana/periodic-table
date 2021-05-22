@@ -11,6 +11,7 @@ export const actinium: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Rn] 7s2 6d1",
+	electronsPerShell: [2, 8, 18, 32, 18, 9, 2],
 	fusionTemperature: 1050,
 	group: 3,
 	metalMetalloidNonmetal: "actinide",

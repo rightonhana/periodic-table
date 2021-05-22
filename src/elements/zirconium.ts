@@ -11,6 +11,7 @@ export const zirconium: ElementData = {
 	commonOxidationStates: [4],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Kr] 5s2 4d2",
+	electronsPerShell: [2, 8, 18, 10, 2],
 	fusionTemperature: 1852,
 	group: 4,
 	metalMetalloidNonmetal: "transition metal",

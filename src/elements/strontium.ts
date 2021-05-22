@@ -11,6 +11,7 @@ export const strontium: ElementData = {
 	commonOxidationStates: [2],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Kr] 5s2",
+	electronsPerShell: [2, 8, 18, 8, 2],
 	fusionTemperature: 769,
 	group: 2,
 	metalMetalloidNonmetal: "alkaline earth metal",

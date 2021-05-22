@@ -11,6 +11,7 @@ export const berkelium: ElementData = {
 	commonOxidationStates: [3, 4],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Rn] 7s2 5f9",
+	electronsPerShell: [2, 8, 18, 32, 27, 8, 2],
 	fusionTemperature: 1050,
 	group: "3 VIII",
 	metalMetalloidNonmetal: "actinide",

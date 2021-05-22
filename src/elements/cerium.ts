@@ -11,6 +11,7 @@ export const cerium: ElementData = {
 	commonOxidationStates: [3, 4],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Xe] 6s2 4f2",
+	electronsPerShell: [2, 8, 18, 19, 9, 2],
 	fusionTemperature: 799,
 	group: "3 I",
 	metalMetalloidNonmetal: "lan­thanide",

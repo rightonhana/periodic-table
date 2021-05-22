@@ -11,6 +11,7 @@ export const californium: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Rn] 7s2 5f10",
+	electronsPerShell: [2, 8, 18, 32, 28, 8, 2],
 	fusionTemperature: 900,
 	group: "3 IX",
 	metalMetalloidNonmetal: "actinide",

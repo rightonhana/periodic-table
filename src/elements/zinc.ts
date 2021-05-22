@@ -11,6 +11,7 @@ export const zinc: ElementData = {
 	commonOxidationStates: [2],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Ar] 4s2 3d10",
+	electronsPerShell: [2, 8, 18, 2],
 	fusionTemperature: 419.58,
 	group: 12,
 	metalMetalloidNonmetal: "post-​transition metal",

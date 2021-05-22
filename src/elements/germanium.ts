@@ -11,6 +11,7 @@ export const germanium: ElementData = {
 	commonOxidationStates: [4],
 	crystalStructure: CrystalStructures.DC,
 	electronConfiguration: "[Ar] 4s2 3d10 4p2",
+	electronsPerShell: [2, 8, 18, 4],
 	fusionTemperature: 937.4,
 	group: 14,
 	metalMetalloidNonmetal: "metalloid",

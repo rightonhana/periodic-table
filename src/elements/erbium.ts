@@ -11,6 +11,7 @@ export const erbium: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Xe] 6s2 4f12",
+	electronsPerShell: [2, 8, 18, 30, 8, 2],
 	fusionTemperature: 1529,
 	group: "3 XI",
 	metalMetalloidNonmetal: "lan­thanide",

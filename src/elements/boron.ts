@@ -11,6 +11,7 @@ export const boron: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.RHO,
 	electronConfiguration: "1s2 2s2 2p1",
+	electronsPerShell: [2, 3],
 	fusionTemperature: 2079,
 	group: 13,
 	metalMetalloidNonmetal: "metalloid",

@@ -11,6 +11,7 @@ export const oxygen: ElementData = {
 	commonOxidationStates: [-2],
 	crystalStructure: CrystalStructures.SC,
 	electronConfiguration: "1s2 2s2 2p4",
+	electronsPerShell: [2, 6],
 	fusionTemperature: -218.4,
 	group: 16,
 	metalMetalloidNonmetal: "reactive nonmetal",

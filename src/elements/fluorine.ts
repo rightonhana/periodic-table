@@ -11,6 +11,7 @@ export const fluorine: ElementData = {
 	commonOxidationStates: [-1],
 	crystalStructure: CrystalStructures.SC,
 	electronConfiguration: "1s2 2s2 2p5",
+	electronsPerShell: [2, 7],
 	fusionTemperature: -219.62,
 	group: 17,
 	metalMetalloidNonmetal: "reactive nonmetal",

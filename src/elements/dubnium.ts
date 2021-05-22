@@ -9,6 +9,7 @@ export const dubnium: ElementData = {
 	commonOxidationStates: [3, 4],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Rn] 7s2 5f14 6d3",
+	electronsPerShell: [2, 8, 18, 32, 32, 11, 2],
 	fusionTemperature: 3000,
 	group: 5,
 	metalMetalloidNonmetal: "transition metal",

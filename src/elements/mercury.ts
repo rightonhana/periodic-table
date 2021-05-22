@@ -11,6 +11,7 @@ export const mercury: ElementData = {
 	commonOxidationStates: [1, 2],
 	crystalStructure: CrystalStructures.RHO,
 	electronConfiguration: "[Xe] 6s2 4f14 5d10",
+	electronsPerShell: [2, 8, 18, 32, 18, 2],
 	fusionTemperature: -38.87,
 	group: 12,
 	metalMetalloidNonmetal: "post-​transition metal",

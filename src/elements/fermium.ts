@@ -10,6 +10,7 @@ export const fermium: ElementData = {
 	commonOxidationStates: [2, 3],
 	crystalStructure: CrystalStructures.UK,
 	electronConfiguration: "[Rn] 7s2 5f12",
+	electronsPerShell: [2, 8, 18, 32, 30, 8, 2],
 	fusionTemperature: 1527,
 	group: "3 XI",
 	metalMetalloidNonmetal: "actinide",

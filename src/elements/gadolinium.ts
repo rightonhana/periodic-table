@@ -11,6 +11,7 @@ export const gadolinium: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Xe] 6s2 4f8",
+	electronsPerShell: [2, 8, 18, 25, 9, 2],
 	fusionTemperature: 1313,
 	group: "3 VII",
 	metalMetalloidNonmetal: "lan­thanide",

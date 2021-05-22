@@ -11,6 +11,7 @@ export const curium: ElementData = {
 	commonOxidationStates: [3, 4],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Rn] 7s2 6d1 5f7",
+	electronsPerShell: [2, 8, 18, 32, 25, 9, 2],
 	fusionTemperature: 1340,
 	group: "3 VII",
 	metalMetalloidNonmetal: "actinide",

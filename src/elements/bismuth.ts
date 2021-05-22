@@ -11,6 +11,7 @@ export const bismuth: ElementData = {
 	commonOxidationStates: [3, 5],
 	crystalStructure: CrystalStructures.RHO,
 	electronConfiguration: "[Xe] 6s2 4f14 5d10 6p3",
+	electronsPerShell: [2, 8, 18, 32, 18, 5],
 	fusionTemperature: 271.3,
 	group: 15,
 	metalMetalloidNonmetal: "post-​transition metal",

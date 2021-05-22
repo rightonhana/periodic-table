@@ -11,6 +11,7 @@ export const gallium: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.ORTH,
 	electronConfiguration: "[Ar] 4s2 3d10 4p1",
+	electronsPerShell: [2, 8, 18, 3],
 	fusionTemperature: 29.78,
 	group: 13,
 	metalMetalloidNonmetal: "post-​transition metal",

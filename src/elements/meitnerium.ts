@@ -8,6 +8,7 @@ export const meitnerium: ElementData = {
 	commonOxidationStates: [1, 3, 4, 6, 8, 9],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Rn] 7s2 5f14 6d7",
+	electronsPerShell: [2, 8, 18, 32, 32, 15, 2],
 	group: 9,
 	metalMetalloidNonmetal: "unknown",
 	name: "meitnerium",

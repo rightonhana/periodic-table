@@ -6,6 +6,7 @@ export const unbinilium: ElementData = {
 	atomicNumber: 120,
 	commonOxidationStates: [1, 2, 4],
 	electronConfiguration: "8s2",
+	electronsPerShell: [2, 8, 18, 32, 32, 18, 8, 2],
 	group: 2,
 	metalMetalloidNonmetal: "unknown",
 	name: "unbinilium",

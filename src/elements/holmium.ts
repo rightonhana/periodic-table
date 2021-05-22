@@ -11,6 +11,7 @@ export const holmium: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Xe] 6s2 4f11",
+	electronsPerShell: [2, 8, 18, 29, 8, 2],
 	fusionTemperature: 1474,
 	group: "3 X",
 	metalMetalloidNonmetal: "lan­thanide",

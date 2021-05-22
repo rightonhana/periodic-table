@@ -11,6 +11,7 @@ export const promethium: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Xe] 6s2 4f5",
+	electronsPerShell: [2, 8, 18, 23, 8, 2],
 	fusionTemperature: 1042,
 	group: "3 IV",
 	metalMetalloidNonmetal: "lan­thanide",

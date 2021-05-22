@@ -11,6 +11,7 @@ export const gold: ElementData = {
 	commonOxidationStates: [1, 3],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Xe] 6s2 4f14 5d10",
+	electronsPerShell: [2, 8, 18, 32, 18, 1],
 	fusionTemperature: 1064.43,
 	group: 11,
 	metalMetalloidNonmetal: "transition metal",

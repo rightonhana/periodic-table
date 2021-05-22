@@ -11,6 +11,7 @@ export const yttrium: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Kr] 5s2 4d1",
+	electronsPerShell: [2, 8, 18, 9, 2],
 	fusionTemperature: 1522,
 	group: 3,
 	metalMetalloidNonmetal: "transition metal",

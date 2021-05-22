@@ -11,6 +11,7 @@ export const cobalt: ElementData = {
 	commonOxidationStates: [2, 3],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Ar] 4s2 3d7",
+	electronsPerShell: [2, 8, 15, 2],
 	fusionTemperature: 1495,
 	group: 9,
 	metalMetalloidNonmetal: "transition metal",

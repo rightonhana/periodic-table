@@ -6,6 +6,7 @@ export const ununennium: ElementData = {
 	atomicNumber: 119,
 	commonOxidationStates: [1, 3],
 	electronConfiguration: "8s1",
+	electronsPerShell: [2, 8, 18, 32, 32, 18, 8, 1],
 	group: 1,
 	metalMetalloidNonmetal: "unknown",
 	name: "ununennium",

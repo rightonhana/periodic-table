@@ -11,6 +11,7 @@ export const barium: ElementData = {
 	commonOxidationStates: [2],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Xe] 6s2",
+	electronsPerShell: [2, 8, 18, 18, 8, 2],
 	fusionTemperature: 725,
 	group: 2,
 	metalMetalloidNonmetal: "alkaline earth metal",

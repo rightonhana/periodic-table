@@ -9,6 +9,7 @@ export const rutherfordium: ElementData = {
 	commonOxidationStates: [3, 4],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Rn] 7s2 5f14 6d2",
+	electronsPerShell: [2, 8, 18, 32, 32, 10, 2],
 	fusionTemperature: 2100,
 	group: 4,
 	metalMetalloidNonmetal: "transition metal",

@@ -11,6 +11,7 @@ export const thorium: ElementData = {
 	commonOxidationStates: [4],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Rn] 7s2 6d2",
+	electronsPerShell: [2, 8, 18, 32, 18, 10, 2],
 	fusionTemperature: 1750,
 	group: "3 I",
 	metalMetalloidNonmetal: "actinide",

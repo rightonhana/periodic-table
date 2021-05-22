@@ -11,6 +11,7 @@ export const vanadium: ElementData = {
 	commonOxidationStates: [2, 3, 4, 5],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Ar] 4s2 3d3",
+	electronsPerShell: [2, 8, 11, 2],
 	fusionTemperature: 1890,
 	group: 5,
 	metalMetalloidNonmetal: "transition metal",

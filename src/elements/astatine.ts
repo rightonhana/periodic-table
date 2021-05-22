@@ -9,6 +9,7 @@ export const astatine: ElementData = {
 	commonOxidationStates: [-1, 1, 3, 5, 7],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Xe] 6s2 4f14 5d10 6p5",
+	electronsPerShell: [2, 8, 18, 32, 18, 7],
 	fusionTemperature: 302,
 	group: 17,
 	metalMetalloidNonmetal: "metalloid",

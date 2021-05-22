@@ -8,6 +8,7 @@ export const bohrium: ElementData = {
 	commonOxidationStates: [5, 7],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Rn] 7s2 5f14 6d5",
+	electronsPerShell: [2, 8, 18, 32, 32, 13, 2],
 	group: 7,
 	metalMetalloidNonmetal: "transition metal",
 	name: "bohrium",

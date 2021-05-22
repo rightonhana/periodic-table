@@ -11,6 +11,7 @@ export const hydrogen: ElementData = {
 	commonOxidationStates: [1],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "1s1",
+	electronsPerShell: [1],
 	fusionTemperature: -259.34,
 	group: 1,
 	metalMetalloidNonmetal: "reactive nonmetal",

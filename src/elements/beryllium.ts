@@ -11,6 +11,7 @@ export const beryllium: ElementData = {
 	commonOxidationStates: [2],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "1s2 2s2",
+	electronsPerShell: [2, 2],
 	fusionTemperature: 1.278,
 	group: 2,
 	metalMetalloidNonmetal: "alkaline earth metal",

@@ -11,6 +11,7 @@ export const lanthanum: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.DHCP,
 	electronConfiguration: "[Xe] 6s2 5d1",
+	electronsPerShell: [2, 8, 18, 18, 9, 2],
 	fusionTemperature: 918,
 	group: 3,
 	metalMetalloidNonmetal: "lan­thanide",

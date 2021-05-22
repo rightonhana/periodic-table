@@ -11,6 +11,7 @@ export const thulium: ElementData = {
 	commonOxidationStates: [2, 3],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Xe] 6s2 4f13",
+	electronsPerShell: [2, 8, 18, 31, 8, 2],
 	fusionTemperature: 1545,
 	group: "3 XII",
 	metalMetalloidNonmetal: "lan­thanide",

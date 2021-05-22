@@ -11,6 +11,7 @@ export const americium: ElementData = {
 	commonOxidationStates: [3, 4, 5, 6],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Rn] 7s2 5f7",
+	electronsPerShell: [2, 8, 18, 32, 25, 8, 2],
 	fusionTemperature: 994,
 	group: "3 VI",
 	metalMetalloidNonmetal: "actinide",

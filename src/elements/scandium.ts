@@ -10,6 +10,7 @@ export const scandium: ElementData = {
 	boilingTemperature: 2836,
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Ar] 4s2 3d1",
+	electronsPerShell: [2, 8, 9, 2],
 	fusionTemperature: 1541,
 	group: 3,
 	metalMetalloidNonmetal: "transition metal",

@@ -8,6 +8,7 @@ export const roentgenium: ElementData = {
 	commonOxidationStates: [-1, 1, 3, 5],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Rn] 7s2 5f14 6d9",
+	electronsPerShell: [2, 8, 18, 32, 32, 17, 2],
 	group: 11,
 	metalMetalloidNonmetal: "unknown",
 	name: "roentgenium",

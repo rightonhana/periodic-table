@@ -6,6 +6,7 @@ export const moscovium: ElementData = {
 	atomicNumber: 115,
 	commonOxidationStates: [1, 3],
 	electronConfiguration: "[Rn] 7s2 5f14 6d10 7p3",
+	electronsPerShell: [2, 8, 18, 32, 32, 18, 5],
 	group: 15,
 	metalMetalloidNonmetal: "unknown",
 	name: "moscovium",

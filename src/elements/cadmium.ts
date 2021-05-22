@@ -11,6 +11,7 @@ export const cadmium: ElementData = {
 	commonOxidationStates: [2],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Kr] 5s2 4d10",
+	electronsPerShell: [2, 8, 18, 18, 2],
 	fusionTemperature: 320.9,
 	group: 12,
 	metalMetalloidNonmetal: "post-​transition metal",

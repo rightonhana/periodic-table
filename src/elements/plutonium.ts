@@ -11,6 +11,7 @@ export const plutonium: ElementData = {
 	commonOxidationStates: [3, 4, 5, 6],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Rn] 7s2 5f6",
+	electronsPerShell: [2, 8, 18, 32, 24, 8, 2],
 	fusionTemperature: 641,
 	group: "3 V",
 	metalMetalloidNonmetal: "actinide",

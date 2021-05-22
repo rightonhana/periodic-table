@@ -11,6 +11,7 @@ export const niobium: ElementData = {
 	commonOxidationStates: [3, 5],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Kr] 5s2 4d3",
+	electronsPerShell: [2, 8, 18, 12, 1],
 	fusionTemperature: 2468,
 	group: 5,
 	metalMetalloidNonmetal: "transition metal",

@@ -11,6 +11,7 @@ export const radium: ElementData = {
 	commonOxidationStates: [2],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Rn] 7s2",
+	electronsPerShell: [2, 8, 18, 32, 18, 8, 2],
 	fusionTemperature: 700,
 	group: 2,
 	metalMetalloidNonmetal: "alkaline earth metal",

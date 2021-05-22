@@ -11,6 +11,7 @@ export const technetium: ElementData = {
 	commonOxidationStates: [7],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Kr] 5s2 4d5",
+	electronsPerShell: [2, 8, 18, 13, 2],
 	fusionTemperature: 2172,
 	group: 7,
 	metalMetalloidNonmetal: "transition metal",

@@ -11,6 +11,7 @@ export const praseodymium: ElementData = {
 	commonOxidationStates: [3, 4],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Xe] 6s2 4f3",
+	electronsPerShell: [2, 8, 18, 21, 8, 2],
 	fusionTemperature: 931,
 	group: "3 II",
 	metalMetalloidNonmetal: "lan­thanide",

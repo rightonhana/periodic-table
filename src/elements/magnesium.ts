@@ -11,6 +11,7 @@ export const magnesium: ElementData = {
 	commonOxidationStates: [2],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Ne] 3s2",
+	electronsPerShell: [2, 8, 2],
 	fusionTemperature: 648.8,
 	group: 2,
 	metalMetalloidNonmetal: "alkaline earth metal",

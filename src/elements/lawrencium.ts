@@ -10,6 +10,7 @@ export const lawrencium: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Rn] 7s2 5f14 6d1",
+	electronsPerShell: [2, 8, 18, 32, 32, 8, 3],
 	fusionTemperature: 1627,
 	group: "3 XIV",
 	metalMetalloidNonmetal: "actinide",

@@ -10,6 +10,7 @@ export const xenon: ElementData = {
 	boilingTemperature: -152.30,
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Kr] 5s2 4d10 5p6",
+	electronsPerShell: [2, 8, 18, 18, 8],
 	fusionTemperature: -156.6,
 	group: 18,
 	metalMetalloidNonmetal: "noble gas",

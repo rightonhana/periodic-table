@@ -10,6 +10,7 @@ export const mendelevium: ElementData = {
 	commonOxidationStates: [2, 3],
 	crystalStructure: CrystalStructures.UK,
 	electronConfiguration: "[Rn] 7s2 5f13",
+	electronsPerShell: [2, 8, 18, 32, 31, 8, 2],
 	fusionTemperature: 827,
 	group: "3 XII",
 	metalMetalloidNonmetal: "actinide",

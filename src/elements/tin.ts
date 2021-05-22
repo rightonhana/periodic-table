@@ -11,6 +11,7 @@ export const tin: ElementData = {
 	commonOxidationStates: [2, 4],
 	crystalStructure: CrystalStructures.TETR,
 	electronConfiguration: "[Kr] 5s2 4d10 5p2",
+	electronsPerShell: [2, 8, 18, 18, 4],
 	fusionTemperature: 231.97,
 	group: 14,
 	metalMetalloidNonmetal: "post-​transition metal",

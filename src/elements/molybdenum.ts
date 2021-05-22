@@ -11,6 +11,7 @@ export const molybdenum: ElementData = {
 	commonOxidationStates: [2, 3, 4, 5, 6],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Kr] 5s2 4d4",
+	electronsPerShell: [2, 8, 18, 13, 1],
 	fusionTemperature: 2617,
 	group: 6,
 	metalMetalloidNonmetal: "transition metal",

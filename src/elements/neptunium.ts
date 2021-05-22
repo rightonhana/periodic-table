@@ -11,6 +11,7 @@ export const neptunium: ElementData = {
 	commonOxidationStates: [3, 4, 5, 6],
 	crystalStructure: CrystalStructures.TETR,
 	electronConfiguration: "[Rn] 7s2 6d1 5f4",
+	electronsPerShell: [2, 8, 18, 32, 22, 9, 2],
 	fusionTemperature: 640,
 	group: "3 IV",
 	metalMetalloidNonmetal: "actinide",

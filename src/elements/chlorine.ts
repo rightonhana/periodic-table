@@ -11,6 +11,7 @@ export const chlorine: ElementData = {
 	commonOxidationStates: [-1, 1, 3, 5, 7],
 	crystalStructure: CrystalStructures.ORTH,
 	electronConfiguration: "[Ne] 3s2 3p5",
+	electronsPerShell: [2, 8, 7],
 	fusionTemperature: -100.98,
 	group: 17,
 	metalMetalloidNonmetal: "reactive nonmetal",

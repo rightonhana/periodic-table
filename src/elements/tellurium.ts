@@ -11,6 +11,7 @@ export const tellurium: ElementData = {
 	commonOxidationStates: [-2, 4, 6],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Kr] 5s2 4d10 5p4",
+	electronsPerShell: [2, 8, 18, 18, 6],
 	fusionTemperature: 449.5,
 	group: 16,
 	metalMetalloidNonmetal: "metalloid",

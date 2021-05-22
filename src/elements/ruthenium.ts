@@ -11,6 +11,7 @@ export const ruthenium: ElementData = {
 	commonOxidationStates: [2, 3, 4, 6, 8],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Kr] 5s2 4d6",
+	electronsPerShell: [2, 8, 18, 15, 1],
 	fusionTemperature: 2310,
 	group: 8,
 	metalMetalloidNonmetal: "transition metal",

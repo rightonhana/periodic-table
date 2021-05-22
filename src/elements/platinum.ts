@@ -11,6 +11,7 @@ export const platinum: ElementData = {
 	commonOxidationStates: [2, 4],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Xe] 6s2 4f14 5d9",
+	electronsPerShell: [2, 8, 18, 32, 17, 1],
 	fusionTemperature: 1772,
 	group: 10,
 	metalMetalloidNonmetal: "transition metal",

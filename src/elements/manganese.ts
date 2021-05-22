@@ -11,6 +11,7 @@ export const manganese: ElementData = {
 	commonOxidationStates: [2, 3, 4, 6, 7],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Ar] 4s2 3d5",
+	electronsPerShell: [2, 8, 13, 2],
 	fusionTemperature: 1244,
 	group: 7,
 	metalMetalloidNonmetal: "transition metal",

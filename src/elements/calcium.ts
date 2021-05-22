@@ -11,6 +11,7 @@ export const calcium: ElementData = {
 	commonOxidationStates: [2],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Ar] 4s2",
+	electronsPerShell: [2, 8, 8, 2],
 	fusionTemperature: 839,
 	group: 2,
 	metalMetalloidNonmetal: "alkaline earth metal",

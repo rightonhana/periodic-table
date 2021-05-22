@@ -10,6 +10,7 @@ export const neon: ElementData = {
 	boilingTemperature: -246.048,
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "1s2 2s2 2p6",
+	electronsPerShell: [2, 8],
 	fusionTemperature: -248.67,
 	group: 18,
 	metalMetalloidNonmetal: "noble gas",

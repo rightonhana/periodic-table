@@ -11,8 +11,9 @@ export const hafnium: ElementData = {
 	commonOxidationStates: [4],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Xe] 6s2 4f14 5d2",
+	electronsPerShell: [2, 8, 18, 32, 10, 2],
 	fusionTemperature: 2227,
-	group: 4,//TODO: review group in case there are more elements in the middle
+	group: 4,
 	metalMetalloidNonmetal: "transition metal",
 	name: "hafnium",
 	period: 6,

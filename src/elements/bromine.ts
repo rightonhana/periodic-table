@@ -11,6 +11,7 @@ export const bromine: ElementData = {
 	commonOxidationStates: [-1, 1, 3, 5, 7],
 	crystalStructure: CrystalStructures.ORTH,
 	electronConfiguration: "[Ar] 4s2 3d10 4p5",
+	electronsPerShell: [2, 8, 18, 7],
 	fusionTemperature: -7.2,
 	group: 17,
 	metalMetalloidNonmetal: "reactive nonmetal",

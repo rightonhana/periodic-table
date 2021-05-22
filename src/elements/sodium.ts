@@ -11,6 +11,7 @@ export const sodium: ElementData = {
 	commonOxidationStates: [1],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Ne] 3s1",
+	electronsPerShell: [2, 8, 1],
 	fusionTemperature: 97.81,
 	group: 1,
 	metalMetalloidNonmetal: "alkali metal",

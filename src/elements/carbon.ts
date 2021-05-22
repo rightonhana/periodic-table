@@ -11,6 +11,7 @@ export const carbon: ElementData = {
 	commonOxidationStates: [2, 4],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "1s2 2s2 2p2",
+	electronsPerShell: [2, 4],
 	fusionTemperature: 3652,
 	group: 14,
 	metalMetalloidNonmetal: "reactive nonmetal",

@@ -11,6 +11,7 @@ export const selenium: ElementData = {
 	commonOxidationStates: [-2, 4, 6],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Ar] 4s2 3d10 4p4",
+	electronsPerShell: [2, 8, 18, 6],
 	fusionTemperature: 217,
 	group: 16,
 	metalMetalloidNonmetal: "reactive nonmetal",

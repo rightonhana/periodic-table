@@ -11,6 +11,7 @@ export const nickel: ElementData = {
 	commonOxidationStates: [2, 3],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Ar] 4s2 3d8",
+	electronsPerShell: [2, 8, 16, 2],
 	fusionTemperature: 1453,
 	group: 10,
 	metalMetalloidNonmetal: "transition metal",

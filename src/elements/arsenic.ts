@@ -11,6 +11,7 @@ export const arsenic: ElementData = {
 	commonOxidationStates: [-3, 3, 5],
 	crystalStructure: CrystalStructures.RHO,
 	electronConfiguration: "[Ar] 4s2 3d10 4p3",
+	electronsPerShell: [2, 8, 18, 5],
 	fusionTemperature: 817,
 	group: 15,
 	metalMetalloidNonmetal: "metalloid",

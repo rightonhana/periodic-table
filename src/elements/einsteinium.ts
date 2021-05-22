@@ -11,6 +11,7 @@ export const einsteinium: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Rn] 7s2 5f11",
+	electronsPerShell: [2, 8, 18, 32, 29, 8, 2],
 	fusionTemperature: 860,
 	group: "3 X",
 	metalMetalloidNonmetal: "actinide",

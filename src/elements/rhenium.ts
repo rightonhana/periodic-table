@@ -11,6 +11,7 @@ export const rhenium: ElementData = {
 	commonOxidationStates: [-1, 2, 4, 6, 7],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Xe] 6s2 4f14 5d5",
+	electronsPerShell: [2, 8, 18, 32, 13, 2],
 	fusionTemperature: 3180,
 	group: 7,
 	metalMetalloidNonmetal: "transition metal",

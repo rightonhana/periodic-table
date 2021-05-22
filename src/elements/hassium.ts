@@ -8,6 +8,7 @@ export const hassium: ElementData = {
 	commonOxidationStates: [4],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Rn] 7s2 5f14 6d6",
+	electronsPerShell: [2, 8, 18, 32, 32, 14, 2],
 	group: 8,
 	metalMetalloidNonmetal: "transition metal",
 	name: "hassium",

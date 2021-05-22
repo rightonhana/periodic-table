@@ -11,6 +11,7 @@ export const nitrogen: ElementData = {
 	commonOxidationStates: [-3, -2, -1, 1, 2, 3, 4, 5],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "1s2 2s2 2p3",
+	electronsPerShell: [2, 5],
 	fusionTemperature: -218.4,
 	group: 15,
 	metalMetalloidNonmetal: "reactive nonmetal",

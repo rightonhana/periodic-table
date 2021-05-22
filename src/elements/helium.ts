@@ -10,6 +10,7 @@ export const helium: ElementData = {
 	boilingTemperature: -268.934,
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "1s2",
+	electronsPerShell: [2],
 	fusionATM: 26,
 	fusionTemperature: -272.2,
 	group: 18,

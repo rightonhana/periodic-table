@@ -6,6 +6,7 @@ export const oganesson: ElementData = {
 	atomicNumber: 118,
 	commonOxidationStates: [-1, 0, 1, 2, 4, 6],
 	electronConfiguration: "[Rn] 7s2 5f14 6d10 7p6",
+	electronsPerShell: [2, 8, 18, 32, 32, 18, 8],
 	group: 18,
 	metalMetalloidNonmetal: "unknown",
 	name: "oganesson",

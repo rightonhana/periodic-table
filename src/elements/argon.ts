@@ -10,6 +10,7 @@ export const argon: ElementData = {
 	boilingTemperature: -185.7,
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Ne] 3s2 3p6",
+	electronsPerShell: [2, 8, 8],
 	fusionTemperature: -189.2,
 	group: 18,
 	metalMetalloidNonmetal: "noble gas",

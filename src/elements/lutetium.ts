@@ -6,11 +6,12 @@ import AcidBaseProperties from "../enums/AcidBaseProperties";
 export const lutetium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.BASE,
 	atomicMass: 174.967,
-	atomicNumber: 70,
+	atomicNumber: 71,
 	boilingTemperature: 3402,
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Xe] 6s2 4f14 5d1",
+	electronsPerShell: [2, 8, 18, 32, 9, 2],
 	fusionTemperature: 1663,
 	group: "3 XIV",
 	metalMetalloidNonmetal: "lan­thanide",

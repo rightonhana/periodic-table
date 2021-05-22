@@ -11,6 +11,7 @@ export const europium: ElementData = {
 	commonOxidationStates: [2, 3],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Xe] 6s2 4f7",
+	electronsPerShell: [2, 8, 18, 25, 8, 2],
 	fusionTemperature: 822,
 	group: "3 VI",
 	metalMetalloidNonmetal: "lan­thanide",

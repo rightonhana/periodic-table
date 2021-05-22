@@ -11,6 +11,7 @@ export const sulfur: ElementData = {
 	commonOxidationStates: [-2, 2, 4, 6],
 	crystalStructure: CrystalStructures.ORTH,
 	electronConfiguration: "[Ne] 3s2 3p4",
+	electronsPerShell: [2, 8, 6],
 	fusionTemperature: 112.8,
 	group: 16,
 	metalMetalloidNonmetal: "reactive nonmetal",

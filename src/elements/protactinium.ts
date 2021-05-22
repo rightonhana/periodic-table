@@ -11,6 +11,7 @@ export const protactinium: ElementData = {
 	commonOxidationStates: [3, 4, 5],
 	crystalStructure: CrystalStructures.TETR,
 	electronConfiguration: "[Rn] 7s2 6d1 5f2",
+	electronsPerShell: [2, 8, 18, 32, 20, 9, 2],
 	fusionTemperature: 1600,
 	group: "3 II",
 	metalMetalloidNonmetal: "actinide",

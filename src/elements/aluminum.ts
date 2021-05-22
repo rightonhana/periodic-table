@@ -11,6 +11,7 @@ export const aluminum: ElementData = {
 	commonOxidationStates: [3],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Ne] 3s2 3p1",
+	electronsPerShell: [2, 8, 3],
 	fusionTemperature: 660.37,
 	group: 13,
 	metalMetalloidNonmetal: "post-​transition metal",

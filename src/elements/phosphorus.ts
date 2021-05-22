@@ -11,6 +11,7 @@ export const phosphorus: ElementData = {
 	commonOxidationStates: [-3, 3, 5],
 	crystalStructure: CrystalStructures.ORTH,
 	electronConfiguration: "[Ne] 3s2 3p3",
+	electronsPerShell: [2, 8, 5],
 	fusionTemperature: 44.1,
 	group: 15,
 	metalMetalloidNonmetal: "reactive nonmetal",

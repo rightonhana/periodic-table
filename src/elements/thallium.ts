@@ -11,6 +11,7 @@ export const thallium: ElementData = {
 	commonOxidationStates: [1, 3],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Xe] 6s2 4f14 5d10 6p1",
+	electronsPerShell: [2, 8, 18, 32, 18, 3],
 	fusionTemperature: 303.5,
 	group: 13,
 	metalMetalloidNonmetal: "post-​transition metal",

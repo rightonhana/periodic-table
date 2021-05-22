@@ -11,6 +11,7 @@ export const ytterbium: ElementData = {
 	commonOxidationStates: [2, 3],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Xe] 6s2 4f14",
+	electronsPerShell: [2, 8, 18, 32, 8, 2],
 	fusionTemperature: 819,
 	group: "3 XIII",
 	metalMetalloidNonmetal: "lan­thanide",

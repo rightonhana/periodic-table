@@ -11,6 +11,7 @@ export const francium: ElementData = {
 	commonOxidationStates: [1],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Rn] 7s1",
+	electronsPerShell: [2, 8, 18, 32, 18, 8, 1],
 	fusionTemperature: 27,
 	group: 1,
 	metalMetalloidNonmetal: "alkali metal",

@@ -11,6 +11,7 @@ export const rubidium: ElementData = {
 	commonOxidationStates: [1],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Kr] 5s1",
+	electronsPerShell: [2, 8, 18, 8, 1],
 	fusionTemperature: 38.89,
 	group: 1,
 	metalMetalloidNonmetal: "alkali metal",

@@ -11,6 +11,7 @@ export const chromium: ElementData = {
 	commonOxidationStates: [2, 3, 6],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Ar] 4s2 3d5",
+	electronsPerShell: [2, 8, 13, 1],
 	fusionTemperature: 1857,
 	group: 6,
 	metalMetalloidNonmetal: "transition metal",

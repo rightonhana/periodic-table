@@ -11,6 +11,7 @@ export const terbium: ElementData = {
 	commonOxidationStates: [3, 4],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Xe] 6s2 4f9",
+	electronsPerShell: [2, 8, 18, 27, 8, 2],
 	fusionTemperature: 1356,
 	group: "3 VIII",
 	metalMetalloidNonmetal: "lan­thanide",

@@ -11,6 +11,7 @@ export const iron: ElementData = {
 	commonOxidationStates: [2, 3],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Ar] 4s2 3d6",
+	electronsPerShell: [2, 8, 14, 2],
 	fusionTemperature: 1535,
 	group: 8,
 	metalMetalloidNonmetal: "transition metal",

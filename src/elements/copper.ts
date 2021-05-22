@@ -10,6 +10,7 @@ export const copper: ElementData = {
 	boilingTemperature: 2567,
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Ar] 4s2 3d9",
+	electronsPerShell: [2, 8, 18, 1],
 	fusionTemperature: 1083.4,
 	group: 11,
 	metalMetalloidNonmetal: "transition metal",

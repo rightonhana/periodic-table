@@ -11,6 +11,7 @@ export const palladium: ElementData = {
 	commonOxidationStates: [2, 4],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Kr] 5s2 4d8",
+	electronsPerShell: [2, 8, 18, 18],
 	fusionTemperature: 1554,
 	group: 10,
 	metalMetalloidNonmetal: "transition metal",

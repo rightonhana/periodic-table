@@ -11,6 +11,7 @@ export const osmium: ElementData = {
 	commonOxidationStates: [2, 3, 4, 6, 8],
 	crystalStructure: CrystalStructures.HCP,
 	electronConfiguration: "[Xe] 6s2 4f14 5d6",
+	electronsPerShell: [2, 8, 18, 32, 14, 2],
 	fusionTemperature: 3045,
 	group: 8,
 	metalMetalloidNonmetal: "transition metal",

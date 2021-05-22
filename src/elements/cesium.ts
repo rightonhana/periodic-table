@@ -11,6 +11,7 @@ export const cesium: ElementData = {
 	commonOxidationStates: [1],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "[Xe] 6s1",
+	electronsPerShell: [2, 8, 18, 18, 8, 1],
 	fusionTemperature: 28.40,
 	group: 1,
 	metalMetalloidNonmetal: "alkali metal",

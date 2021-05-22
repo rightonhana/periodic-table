@@ -11,6 +11,7 @@ export const lithium: ElementData = {
 	commonOxidationStates: [1],
 	crystalStructure: CrystalStructures.BCC,
 	electronConfiguration: "1s2 2s1",
+	electronsPerShell: [2, 1],
 	fusionTemperature: 180.54,
 	group: 1,
 	metalMetalloidNonmetal: "alkali metal",

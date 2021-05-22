@@ -11,6 +11,7 @@ export const iodine: ElementData = {
 	commonOxidationStates: [-1, 1, 3, 5, 7],
 	crystalStructure: CrystalStructures.ORTH,
 	electronConfiguration: "[Kr] 5s2 4d10 5p5",
+	electronsPerShell: [2, 8, 18, 18, 7],
 	fusionTemperature: 113.5,
 	group: 17,
 	metalMetalloidNonmetal: "reactive nonmetal",

@@ -11,6 +11,7 @@ export const silver: ElementData = {
 	commonOxidationStates: [1],
 	crystalStructure: CrystalStructures.FCC,
 	electronConfiguration: "[Kr] 5s2 4d9",
+	electronsPerShell: [2, 8, 18, 18, 1],
 	fusionTemperature: 961.93,
 	group: 11,
 	metalMetalloidNonmetal: "transition metal",

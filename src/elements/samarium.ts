@@ -11,6 +11,7 @@ export const samarium: ElementData = {
 	commonOxidationStates: [2, 3],
 	crystalStructure: CrystalStructures.HEX,
 	electronConfiguration: "[Xe] 6s2 4f6",
+	electronsPerShell: [2, 8, 18, 24, 8, 2],
 	fusionTemperature: 1074,
 	group: "3 V",
 	metalMetalloidNonmetal: "lan­thanide",

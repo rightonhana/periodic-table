@@ -11,6 +11,7 @@ export type ElementData = {
 	commonOxidationStates?: number[];
 	crystalStructure?: CrystalStructures;
 	electronConfiguration: string;
+	electronsPerShell: number[];
 	fusionATM?: number;
 	fusionTemperature?: number;
 	group: number | string;
@@ -20,10 +21,8 @@ export type ElementData = {
 	special: boolean;
 	state: States;
 	symbol: string;
-	//TODO: Electrons per shell: for animation
 	//TODO: block: p, s, f, d
 	//TODO: density
-	//ElectronConfiguration /ElectronConfigurationSemantic
 }
 
 export default ElementData;
