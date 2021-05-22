@@ -1,6 +1,6 @@
 export enum CrystalStructures {
 	BCC = "body-centered cubic",
-	FCC = "face-centered cubic", // (cubic close packed)
+	FCC = "face-centered cubic",
 	HCP = "hexagonal close packed",
 	DHCP = "double hexagonal close packed",
 	ORTH = "orthorhombic",
