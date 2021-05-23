@@ -1,4 +1,4 @@
-export enum ElementGroups {
+export enum ElementCategories {
 	ACTINIDE = "actinide",
 	ALKALI_METAL = "alkali metal",
 	ALKALINE_EARTH_METAL = "alkaline earth metal",
@@ -11,4 +11,4 @@ export enum ElementGroups {
 	UNKNOWN = "unknown"
 }
 
-export default ElementGroups;
+export default ElementCategories;
