@@ -1,6 +1,7 @@
 import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const nihonium: ElementData = {
 	atomicMass: 286,
@@ -10,7 +11,7 @@ export const nihonium: ElementData = {
 	electronConfiguration: "[Rn] 7s2 5f14 6d10 7p1",
 	electronsPerShell: [2, 8, 18, 32, 32, 18, 3],
 	group: 13,
-	metalMetalloidNonmetal: "unknown",
+	elementCategory: ElementCategories.UNKNOWN,
 	name: "nihonium",
 	period: 7,
 	special: true,

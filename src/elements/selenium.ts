@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const selenium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID,
@@ -14,7 +15,7 @@ export const selenium: ElementData = {
 	electronsPerShell: [2, 8, 18, 6],
 	fusionTemperature: 217,
 	group: 16,
-	metalMetalloidNonmetal: "reactive nonmetal",
+	elementCategory: ElementCategories.REACTIVE_NONMETAL,
 	name: "selenium",
 	period: 4,
 	special: false,

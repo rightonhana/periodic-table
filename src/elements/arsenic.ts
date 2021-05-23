@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const arsenic: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID,
@@ -14,7 +15,7 @@ export const arsenic: ElementData = {
 	electronsPerShell: [2, 8, 18, 5],
 	fusionTemperature: 817,
 	group: 15,
-	metalMetalloidNonmetal: "metalloid",
+	elementCategory: ElementCategories.METALLOID,
 	name: "arsenic",
 	period: 4,
 	special: false,

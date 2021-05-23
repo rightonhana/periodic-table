@@ -1,7 +1,7 @@
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
 import States from "../enums/States";
-import typeColor from "../const/typeColor";
+import ElementCategories from "../enums/ElementCategories";
 
 export type ElementData = {
 	acidBaseProperties?: AcidBaseProperties;
@@ -15,7 +15,7 @@ export type ElementData = {
 	fusionATM?: number;
 	fusionTemperature?: number;
 	group: number | string;
-	metalMetalloidNonmetal: keyof typeof typeColor;
+	elementCategory: ElementCategories;
 	name: string;
 	period: number;
 	special: boolean;

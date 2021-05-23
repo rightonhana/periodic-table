@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const tin: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID_BASE,
@@ -14,7 +15,7 @@ export const tin: ElementData = {
 	electronsPerShell: [2, 8, 18, 18, 4],
 	fusionTemperature: 231.97,
 	group: 14,
-	metalMetalloidNonmetal: "post-​transition metal",
+	elementCategory: ElementCategories.POST_TRANSITION_METAL,
 	name: "tin",
 	period: 5,
 	special: false,

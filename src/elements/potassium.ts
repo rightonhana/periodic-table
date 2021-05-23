@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const potassium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.BASE,
@@ -14,7 +15,7 @@ export const potassium: ElementData = {
 	electronsPerShell: [2, 8, 8, 1],
 	fusionTemperature: 63.25,
 	group: 1,
-	metalMetalloidNonmetal: "alkali metal",
+	elementCategory: ElementCategories.ALKALI_METAL,
 	name: "potassium",
 	period: 4,
 	special: false,

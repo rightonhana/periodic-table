@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const lanthanum: ElementData = {
 	acidBaseProperties: AcidBaseProperties.BASE,
@@ -14,7 +15,7 @@ export const lanthanum: ElementData = {
 	electronsPerShell: [2, 8, 18, 18, 9, 2],
 	fusionTemperature: 918,
 	group: 3,
-	metalMetalloidNonmetal: "lan­thanide",
+	elementCategory: ElementCategories.LANTHANIDE,
 	name: "lanthanum",
 	period: 6,
 	special: false,

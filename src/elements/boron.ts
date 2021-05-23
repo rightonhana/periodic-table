@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const boron: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID,
@@ -14,7 +15,7 @@ export const boron: ElementData = {
 	electronsPerShell: [2, 3],
 	fusionTemperature: 2079,
 	group: 13,
-	metalMetalloidNonmetal: "metalloid",
+	elementCategory: ElementCategories.METALLOID,
 	name: "boron",
 	period: 2,
 	special: false,

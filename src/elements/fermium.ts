@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const fermium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.UNKNOWN,
@@ -13,7 +14,7 @@ export const fermium: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 30, 8, 2],
 	fusionTemperature: 1527,
 	group: "3 XI",
-	metalMetalloidNonmetal: "actinide",
+	elementCategory: ElementCategories.ACTINIDE,
 	name: "fermium",
 	period: 7,
 	special: false,

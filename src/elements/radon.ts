@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const radon: ElementData = {
 	acidBaseProperties: AcidBaseProperties.NEUTRAL,
@@ -13,7 +14,7 @@ export const radon: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 18, 8],
 	fusionTemperature: -71,
 	group: 18,
-	metalMetalloidNonmetal: "noble gas",
+	elementCategory: ElementCategories.NOBLE_GAS,
 	name: "radon",
 	period: 6,
 	special: false,

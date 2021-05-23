@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const lithium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.BASE,
@@ -14,7 +15,7 @@ export const lithium: ElementData = {
 	electronsPerShell: [2, 1],
 	fusionTemperature: 180.54,
 	group: 1,
-	metalMetalloidNonmetal: "alkali metal",
+	elementCategory: ElementCategories.ALKALI_METAL,
 	name: "lithium",
 	period: 2,
 	special: false,

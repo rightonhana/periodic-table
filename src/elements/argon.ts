@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const argon: ElementData = {
 	acidBaseProperties: AcidBaseProperties.NEUTRAL,
@@ -13,7 +14,7 @@ export const argon: ElementData = {
 	electronsPerShell: [2, 8, 8],
 	fusionTemperature: -189.2,
 	group: 18,
-	metalMetalloidNonmetal: "noble gas",
+	elementCategory: ElementCategories.NOBLE_GAS,
 	name: "argon",
 	period: 3,
 	special: false,

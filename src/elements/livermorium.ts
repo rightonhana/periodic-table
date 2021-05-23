@@ -1,5 +1,6 @@
 import ElementData from "../types/ElementData";
 import States from "../enums/States";
+import ElementCategories from "../enums/ElementCategories";
 
 export const livermorium: ElementData = {
 	atomicMass: 293,
@@ -8,7 +9,7 @@ export const livermorium: ElementData = {
 	electronConfiguration: "[Rn] 7s2 5f14 6d10 7p4",
 	electronsPerShell: [2, 8, 18, 32, 32, 18, 6],
 	group: 16,
-	metalMetalloidNonmetal: "unknown",
+	elementCategory: ElementCategories.UNKNOWN,
 	name: "livermorium",
 	period: 7,
 	special: true,

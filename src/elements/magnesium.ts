@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const magnesium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.BASE,
@@ -14,7 +15,7 @@ export const magnesium: ElementData = {
 	electronsPerShell: [2, 8, 2],
 	fusionTemperature: 648.8,
 	group: 2,
-	metalMetalloidNonmetal: "alkaline earth metal",
+	elementCategory: ElementCategories.ALKALINE_EARTH_METAL,
 	name: "magnesium",
 	period: 3,
 	special: false,

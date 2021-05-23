@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const iodine: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID,
@@ -14,7 +15,7 @@ export const iodine: ElementData = {
 	electronsPerShell: [2, 8, 18, 18, 7],
 	fusionTemperature: 113.5,
 	group: 17,
-	metalMetalloidNonmetal: "reactive nonmetal",
+	elementCategory: ElementCategories.REACTIVE_NONMETAL,
 	name: "iodine",
 	period: 5,
 	special: false,

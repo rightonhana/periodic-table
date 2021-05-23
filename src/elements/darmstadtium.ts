@@ -1,6 +1,7 @@
 import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const darmstadtium: ElementData = {
 	atomicMass: 269,
@@ -10,7 +11,7 @@ export const darmstadtium: ElementData = {
 	electronConfiguration: "[Rn] 7s2 5f14 6d8",
 	electronsPerShell: [2, 8, 18, 32, 32, 16, 2],
 	group: 10,
-	metalMetalloidNonmetal: "unknown",
+	elementCategory: ElementCategories.UNKNOWN,
 	name: "darmstadtium",
 	period: 7,
 	special: true,

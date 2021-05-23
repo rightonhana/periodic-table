@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const tantalum: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID,
@@ -14,7 +15,7 @@ export const tantalum: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 11, 2],
 	fusionTemperature: 2996,
 	group: 5,
-	metalMetalloidNonmetal: "transition metal",
+	elementCategory: ElementCategories.TRANSITION_METAL,
 	name: "tantalum",
 	period: 6,
 	special: false,

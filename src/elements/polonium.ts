@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const polonium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID_BASE,
@@ -14,7 +15,7 @@ export const polonium: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 18, 6],
 	fusionTemperature: 254,
 	group: 16,
-	metalMetalloidNonmetal: "post-​transition metal",
+	elementCategory: ElementCategories.POST_TRANSITION_METAL,
 	name: "polonium",
 	period: 6,
 	special: false,

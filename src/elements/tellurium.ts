@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const tellurium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID,
@@ -14,7 +15,7 @@ export const tellurium: ElementData = {
 	electronsPerShell: [2, 8, 18, 18, 6],
 	fusionTemperature: 449.5,
 	group: 16,
-	metalMetalloidNonmetal: "metalloid",
+	elementCategory: ElementCategories.METALLOID,
 	name: "tellurium",
 	period: 5,
 	special: false,

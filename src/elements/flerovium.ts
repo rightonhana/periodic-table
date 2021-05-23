@@ -1,6 +1,7 @@
 import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const flerovium: ElementData = {
 	atomicMass: 289,
@@ -10,7 +11,7 @@ export const flerovium: ElementData = {
 	electronConfiguration: "[Rn] 7s2 5f14 6d10 7p2",
 	electronsPerShell: [2, 8, 18, 32, 32, 18, 4],
 	group: 14,
-	metalMetalloidNonmetal: "post-​transition metal",
+	elementCategory: ElementCategories.POST_TRANSITION_METAL,
 	name: "flerovium",
 	period: 7,
 	special: true,

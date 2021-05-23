@@ -1,5 +1,6 @@
 import ElementData from "../types/ElementData";
 import States from "../enums/States";
+import ElementCategories from "../enums/ElementCategories";
 
 export const unbinilium: ElementData = {
 	atomicMass: 327,
@@ -8,7 +9,7 @@ export const unbinilium: ElementData = {
 	electronConfiguration: "8s2",
 	electronsPerShell: [2, 8, 18, 32, 32, 18, 8, 2],
 	group: 2,
-	metalMetalloidNonmetal: "unknown",
+	elementCategory: ElementCategories.UNKNOWN,
 	name: "unbinilium",
 	period: 8,
 	special: true,

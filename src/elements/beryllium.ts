@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const beryllium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID_BASE,
@@ -14,7 +15,7 @@ export const beryllium: ElementData = {
 	electronsPerShell: [2, 2],
 	fusionTemperature: 1.278,
 	group: 2,
-	metalMetalloidNonmetal: "alkaline earth metal",
+	elementCategory: ElementCategories.ALKALINE_EARTH_METAL,
 	name: "beryllium",
 	period: 2,
 	special: false,

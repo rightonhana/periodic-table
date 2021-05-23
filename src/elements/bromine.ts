@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const bromine: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID,
@@ -14,7 +15,7 @@ export const bromine: ElementData = {
 	electronsPerShell: [2, 8, 18, 7],
 	fusionTemperature: -7.2,
 	group: 17,
-	metalMetalloidNonmetal: "reactive nonmetal",
+	elementCategory: ElementCategories.REACTIVE_NONMETAL,
 	name: "bromine",
 	period: 4,
 	special: false,

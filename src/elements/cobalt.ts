@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const cobalt: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID_BASE,
@@ -14,7 +15,7 @@ export const cobalt: ElementData = {
 	electronsPerShell: [2, 8, 15, 2],
 	fusionTemperature: 1495,
 	group: 9,
-	metalMetalloidNonmetal: "transition metal",
+	elementCategory: ElementCategories.TRANSITION_METAL,
 	name: "cobalt",
 	period: 4,
 	special: false,

@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const rhodium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID_BASE,
@@ -14,7 +15,7 @@ export const rhodium: ElementData = {
 	electronsPerShell: [2, 8, 18, 16, 1],
 	fusionTemperature: 1965,
 	group: 9,
-	metalMetalloidNonmetal: "transition metal",
+	elementCategory: ElementCategories.TRANSITION_METAL,
 	name: "rhodium",
 	period: 5,
 	special: false,

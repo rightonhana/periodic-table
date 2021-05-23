@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const neptunium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID_BASE,
@@ -14,7 +15,7 @@ export const neptunium: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 22, 9, 2],
 	fusionTemperature: 640,
 	group: "3 IV",
-	metalMetalloidNonmetal: "actinide",
+	elementCategory: ElementCategories.ACTINIDE,
 	name: "neptunium",
 	period: 7,
 	special: false,

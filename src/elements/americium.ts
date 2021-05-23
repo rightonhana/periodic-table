@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const americium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID_BASE,
@@ -14,7 +15,7 @@ export const americium: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 25, 8, 2],
 	fusionTemperature: 994,
 	group: "3 VI",
-	metalMetalloidNonmetal: "actinide",
+	elementCategory: ElementCategories.ACTINIDE,
 	name: "americium",
 	period: 7,
 	special: false,

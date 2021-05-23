@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const mercury: ElementData = {
 	acidBaseProperties: AcidBaseProperties.BASE,
@@ -14,7 +15,7 @@ export const mercury: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 18, 2],
 	fusionTemperature: -38.87,
 	group: 12,
-	metalMetalloidNonmetal: "post-​transition metal",
+	elementCategory: ElementCategories.POST_TRANSITION_METAL,
 	name: "mercury",
 	period: 6,
 	special: false,

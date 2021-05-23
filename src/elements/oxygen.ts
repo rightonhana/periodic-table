@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const oxygen: ElementData = {
 	acidBaseProperties: AcidBaseProperties.NEUTRAL,
@@ -14,7 +15,7 @@ export const oxygen: ElementData = {
 	electronsPerShell: [2, 6],
 	fusionTemperature: -218.4,
 	group: 16,
-	metalMetalloidNonmetal: "reactive nonmetal",
+	elementCategory: ElementCategories.REACTIVE_NONMETAL,
 	name: "oxygen",
 	period: 2,
 	special: false,

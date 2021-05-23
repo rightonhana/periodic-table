@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const sulfur: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID,
@@ -14,7 +15,7 @@ export const sulfur: ElementData = {
 	electronsPerShell: [2, 8, 6],
 	fusionTemperature: 112.8,
 	group: 16,
-	metalMetalloidNonmetal: "reactive nonmetal",
+	elementCategory: ElementCategories.REACTIVE_NONMETAL,
 	name: "sulfur",
 	period: 3,
 	special: false,

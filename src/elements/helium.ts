@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const helium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.NEUTRAL,
@@ -14,7 +15,7 @@ export const helium: ElementData = {
 	fusionATM: 26,
 	fusionTemperature: -272.2,
 	group: 18,
-	metalMetalloidNonmetal: "noble gas",
+	elementCategory: ElementCategories.NOBLE_GAS,
 	name: "helium",
 	period: 1,
 	special: false,

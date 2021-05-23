@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const cerium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.BASE,
@@ -14,7 +15,7 @@ export const cerium: ElementData = {
 	electronsPerShell: [2, 8, 18, 19, 9, 2],
 	fusionTemperature: 799,
 	group: "3 I",
-	metalMetalloidNonmetal: "lan­thanide",
+	elementCategory: ElementCategories.LANTHANIDE,
 	name: "cerium",
 	period: 6,
 	special: false,

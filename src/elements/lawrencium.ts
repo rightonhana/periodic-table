@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const lawrencium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.UNKNOWN,
@@ -13,7 +14,7 @@ export const lawrencium: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 32, 8, 3],
 	fusionTemperature: 1627,
 	group: "3 XIV",
-	metalMetalloidNonmetal: "actinide",
+	elementCategory: ElementCategories.ACTINIDE,
 	name: "lawrencium",
 	period: 7,
 	special: false,

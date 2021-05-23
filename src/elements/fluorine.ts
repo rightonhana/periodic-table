@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const fluorine: ElementData = {
 	acidBaseProperties: AcidBaseProperties.NEUTRAL,
@@ -14,7 +15,7 @@ export const fluorine: ElementData = {
 	electronsPerShell: [2, 7],
 	fusionTemperature: -219.62,
 	group: 17,
-	metalMetalloidNonmetal: "reactive nonmetal",
+	elementCategory: ElementCategories.REACTIVE_NONMETAL,
 	name: "fluorine",
 	period: 2,
 	special: false,

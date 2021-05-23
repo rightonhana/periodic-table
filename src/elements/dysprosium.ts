@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const dysprosium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.BASE,
@@ -14,7 +15,7 @@ export const dysprosium: ElementData = {
 	electronsPerShell: [2, 8, 18, 28, 8, 2],
 	fusionTemperature: 1412,
 	group: "3 IX",
-	metalMetalloidNonmetal: "lan­thanide",
+	elementCategory: ElementCategories.LANTHANIDE,
 	name: "dysprosium",
 	period: 6,
 	special: false,

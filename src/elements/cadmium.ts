@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const cadmium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.BASE,
@@ -14,7 +15,7 @@ export const cadmium: ElementData = {
 	electronsPerShell: [2, 8, 18, 18, 2],
 	fusionTemperature: 320.9,
 	group: 12,
-	metalMetalloidNonmetal: "post-​transition metal",
+	elementCategory: ElementCategories.POST_TRANSITION_METAL,
 	name: "cadmium",
 	period: 5,
 	special: false,

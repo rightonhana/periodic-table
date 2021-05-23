@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const radium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.BASE,
@@ -14,7 +15,7 @@ export const radium: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 18, 8, 2],
 	fusionTemperature: 700,
 	group: 2,
-	metalMetalloidNonmetal: "alkaline earth metal",
+	elementCategory: ElementCategories.ALKALINE_EARTH_METAL,
 	name: "radium",
 	period: 7,
 	special: false,

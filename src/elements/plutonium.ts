@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const plutonium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID_BASE,
@@ -14,7 +15,7 @@ export const plutonium: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 24, 8, 2],
 	fusionTemperature: 641,
 	group: "3 V",
-	metalMetalloidNonmetal: "actinide",
+	elementCategory: ElementCategories.ACTINIDE,
 	name: "plutonium",
 	period: 7,
 	special: false,

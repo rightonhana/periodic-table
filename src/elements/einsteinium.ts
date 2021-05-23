@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const einsteinium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.UNKNOWN,
@@ -14,7 +15,7 @@ export const einsteinium: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 29, 8, 2],
 	fusionTemperature: 860,
 	group: "3 X",
-	metalMetalloidNonmetal: "actinide",
+	elementCategory: ElementCategories.ACTINIDE,
 	name: "einsteinium",
 	period: 7,
 	special: false,

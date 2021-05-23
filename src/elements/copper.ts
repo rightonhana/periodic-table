@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const copper: ElementData = {
 	acidBaseProperties: AcidBaseProperties.BASE,
@@ -13,7 +14,7 @@ export const copper: ElementData = {
 	electronsPerShell: [2, 8, 18, 1],
 	fusionTemperature: 1083.4,
 	group: 11,
-	metalMetalloidNonmetal: "transition metal",
+	elementCategory: ElementCategories.TRANSITION_METAL,
 	name: "copper",
 	period: 4,
 	special: false,

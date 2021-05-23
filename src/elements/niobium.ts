@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const niobium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID,
@@ -14,7 +15,7 @@ export const niobium: ElementData = {
 	electronsPerShell: [2, 8, 18, 12, 1],
 	fusionTemperature: 2468,
 	group: 5,
-	metalMetalloidNonmetal: "transition metal",
+	elementCategory: ElementCategories.TRANSITION_METAL,
 	name: "niobium",
 	period: 5,
 	special: false,

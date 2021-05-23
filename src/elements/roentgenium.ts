@@ -1,6 +1,7 @@
 import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const roentgenium: ElementData = {
 	atomicMass: 272,
@@ -10,7 +11,7 @@ export const roentgenium: ElementData = {
 	electronConfiguration: "[Rn] 7s2 5f14 6d9",
 	electronsPerShell: [2, 8, 18, 32, 32, 17, 2],
 	group: 11,
-	metalMetalloidNonmetal: "unknown",
+	elementCategory: ElementCategories.UNKNOWN,
 	name: "roentgenium",
 	period: 7,
 	special: true,

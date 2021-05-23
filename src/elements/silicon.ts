@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const silicon: ElementData = {
 	acidBaseProperties: AcidBaseProperties.ACID_BASE,
@@ -14,7 +15,7 @@ export const silicon: ElementData = {
 	electronsPerShell: [2, 8, 4],
 	fusionTemperature: 1410,
 	group: 14,
-	metalMetalloidNonmetal: "metalloid",
+	elementCategory: ElementCategories.METALLOID,
 	name: "silicon",
 	period: 3,
 	special: false,

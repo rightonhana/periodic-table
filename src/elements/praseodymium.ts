@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const praseodymium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.BASE,
@@ -14,7 +15,7 @@ export const praseodymium: ElementData = {
 	electronsPerShell: [2, 8, 18, 21, 8, 2],
 	fusionTemperature: 931,
 	group: "3 II",
-	metalMetalloidNonmetal: "lan­thanide",
+	elementCategory: ElementCategories.LANTHANIDE,
 	name: "praseodymium",
 	period: 6,
 	special: false,

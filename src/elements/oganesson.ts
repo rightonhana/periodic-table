@@ -1,5 +1,6 @@
 import ElementData from "../types/ElementData";
 import States from "../enums/States";
+import ElementCategories from "../enums/ElementCategories";
 
 export const oganesson: ElementData = {
 	atomicMass: 294,
@@ -8,7 +9,7 @@ export const oganesson: ElementData = {
 	electronConfiguration: "[Rn] 7s2 5f14 6d10 7p6",
 	electronsPerShell: [2, 8, 18, 32, 32, 18, 8],
 	group: 18,
-	metalMetalloidNonmetal: "unknown",
+	elementCategory: ElementCategories.UNKNOWN,
 	name: "oganesson",
 	period: 7,
 	special: true,

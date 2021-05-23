@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const californium: ElementData = {
 	acidBaseProperties: AcidBaseProperties.UNKNOWN,
@@ -14,7 +15,7 @@ export const californium: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 28, 8, 2],
 	fusionTemperature: 900,
 	group: "3 IX",
-	metalMetalloidNonmetal: "actinide",
+	elementCategory: ElementCategories.ACTINIDE,
 	name: "californium",
 	period: 7,
 	special: false,

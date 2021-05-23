@@ -1,6 +1,7 @@
 import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const astatine: ElementData = {
 	atomicMass: 210,
@@ -12,7 +13,7 @@ export const astatine: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 18, 7],
 	fusionTemperature: 302,
 	group: 17,
-	metalMetalloidNonmetal: "metalloid",
+	elementCategory: ElementCategories.METALLOID,
 	name: "astatine",
 	period: 6,
 	special: false,

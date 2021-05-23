@@ -1,6 +1,7 @@
 import ElementData from "../types/ElementData";
 import CrystalStructures from "../enums/CrystalStructures";
 import States from "../enums/States";
+import ElementCategories from "../enums/ElementCategories";
 
 export const bohrium: ElementData = {
 	atomicMass: 264,
@@ -10,7 +11,7 @@ export const bohrium: ElementData = {
 	electronConfiguration: "[Rn] 7s2 5f14 6d5",
 	electronsPerShell: [2, 8, 18, 32, 32, 13, 2],
 	group: 7,
-	metalMetalloidNonmetal: "transition metal",
+	elementCategory: ElementCategories.TRANSITION_METAL,
 	name: "bohrium",
 	period: 7,
 	special: true,

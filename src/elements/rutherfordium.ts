@@ -1,6 +1,7 @@
 import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
+import ElementCategories from "../enums/ElementCategories";
 
 export const rutherfordium: ElementData = {
 	atomicMass: 261,
@@ -12,7 +13,7 @@ export const rutherfordium: ElementData = {
 	electronsPerShell: [2, 8, 18, 32, 32, 10, 2],
 	fusionTemperature: 2100,
 	group: 4,
-	metalMetalloidNonmetal: "transition metal",
+	elementCategory: ElementCategories.TRANSITION_METAL,
 	name: "rutherfordium",
 	period: 7,
 	special: true,

@@ -2,6 +2,7 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import AcidBaseProperties from "../enums/AcidBaseProperties";
+import ElementCategories from "../enums/ElementCategories";
 
 export const neon: ElementData = {
 	acidBaseProperties: AcidBaseProperties.NEUTRAL,
@@ -13,7 +14,7 @@ export const neon: ElementData = {
 	electronsPerShell: [2, 8],
 	fusionTemperature: -248.67,
 	group: 18,
-	metalMetalloidNonmetal: "noble gas",
+	elementCategory: ElementCategories.NOBLE_GAS,
 	name: "neon",
 	period: 2,
 	special: false,
