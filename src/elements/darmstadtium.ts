@@ -2,8 +2,10 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import ElementCategories from "../enums/ElementCategories";
+import AcidBaseProperties from "../enums/AcidBaseProperties";
 
 export const darmstadtium: ElementData = {
+	acidBaseProperties: AcidBaseProperties.UNKNOWN,
 	atomicMass: 269,
 	atomicNumber: 110,
 	commonOxidationStates: [-1, 1, 3, 5, 7],

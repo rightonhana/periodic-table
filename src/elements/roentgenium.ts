@@ -2,8 +2,10 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import ElementCategories from "../enums/ElementCategories";
+import AcidBaseProperties from "../enums/AcidBaseProperties";
 
 export const roentgenium: ElementData = {
+	acidBaseProperties: AcidBaseProperties.UNKNOWN,
 	atomicMass: 272,
 	atomicNumber: 111,
 	commonOxidationStates: [-1, 1, 3, 5],

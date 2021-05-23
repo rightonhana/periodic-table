@@ -2,8 +2,10 @@ import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import CrystalStructures from "../enums/CrystalStructures";
 import ElementCategories from "../enums/ElementCategories";
+import AcidBaseProperties from "../enums/AcidBaseProperties";
 
 export const astatine: ElementData = {
+	acidBaseProperties: AcidBaseProperties.UNKNOWN,
 	atomicMass: 210,
 	atomicNumber: 85,
 	boilingTemperature: 337,

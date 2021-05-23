@@ -2,8 +2,10 @@ import ElementData from "../types/ElementData";
 import CrystalStructures from "../enums/CrystalStructures";
 import States from "../enums/States";
 import ElementCategories from "../enums/ElementCategories";
+import AcidBaseProperties from "../enums/AcidBaseProperties";
 
 export const dubnium: ElementData = {
+	acidBaseProperties: AcidBaseProperties.UNKNOWN,
 	atomicMass: 262,
 	atomicNumber: 105,
 	boilingTemperature: 5700,

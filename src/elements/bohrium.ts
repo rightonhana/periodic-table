@@ -2,8 +2,10 @@ import ElementData from "../types/ElementData";
 import CrystalStructures from "../enums/CrystalStructures";
 import States from "../enums/States";
 import ElementCategories from "../enums/ElementCategories";
+import AcidBaseProperties from "../enums/AcidBaseProperties";
 
 export const bohrium: ElementData = {
+	acidBaseProperties: AcidBaseProperties.UNKNOWN,
 	atomicMass: 264,
 	atomicNumber: 107,
 	commonOxidationStates: [5, 7],

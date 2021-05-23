@@ -4,7 +4,7 @@ import States from "../enums/States";
 import ElementCategories from "../enums/ElementCategories";
 
 export type ElementData = {
-	acidBaseProperties?: AcidBaseProperties;
+	acidBaseProperties: AcidBaseProperties;
 	atomicMass: number;
 	atomicNumber: number;
 	boilingTemperature?: number;

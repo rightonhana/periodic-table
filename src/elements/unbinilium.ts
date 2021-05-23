@@ -1,8 +1,10 @@
 import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import ElementCategories from "../enums/ElementCategories";
+import AcidBaseProperties from "../enums/AcidBaseProperties";
 
 export const unbinilium: ElementData = {
+	acidBaseProperties: AcidBaseProperties.UNKNOWN,
 	atomicMass: 327,
 	atomicNumber: 120,
 	commonOxidationStates: [1, 2, 4],

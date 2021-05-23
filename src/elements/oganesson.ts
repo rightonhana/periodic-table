@@ -1,8 +1,10 @@
 import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import ElementCategories from "../enums/ElementCategories";
+import AcidBaseProperties from "../enums/AcidBaseProperties";
 
 export const oganesson: ElementData = {
+	acidBaseProperties: AcidBaseProperties.UNKNOWN,
 	atomicMass: 294,
 	atomicNumber: 118,
 	commonOxidationStates: [-1, 0, 1, 2, 4, 6],

@@ -1,8 +1,10 @@
 import ElementData from "../types/ElementData";
 import States from "../enums/States";
 import ElementCategories from "../enums/ElementCategories";
+import AcidBaseProperties from "../enums/AcidBaseProperties";
 
 export const moscovium: ElementData = {
+	acidBaseProperties: AcidBaseProperties.UNKNOWN,
 	atomicMass: 288,
 	atomicNumber: 115,
 	commonOxidationStates: [1, 3],
