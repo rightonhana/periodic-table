@@ -1,0 +1,25 @@
+.Atom circle:not([fill]) {
+	fill: currentColor;
+}
+
+.Atom circle[fill] {
+	stroke: currentColor;
+}
+
+@keyframes rotate {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.Orbit {
+		animation-name: rotate;
+		animation-fill-mode: both;
+		animation-duration: calc(var(--speed, 60) * 1s);
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		transform: rotate(0);
+		transform-origin: center;
+	}
+}
