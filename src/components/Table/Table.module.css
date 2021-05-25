@@ -1,0 +1,58 @@
+.Table {
+	display: grid;
+	grid-template-columns: repeat(18, 1fr);
+	grid-gap: 0;
+	position: relative;
+	width: calc(5.3rem * 18);
+	height: calc(6rem * 9);
+}
+
+.Table button:nth-child(2) {
+	grid-column-start: -2;
+}
+
+.Table button:nth-child(5), .Table button:nth-child(13) {
+	grid-column-start: 13;
+}
+
+.Table button:nth-child(93), .Table button:nth-child(107) {
+	grid-column-start: 5;
+}
+
+.Table button:nth-child(93),
+.Table button:nth-child(94),
+.Table button:nth-child(95),
+.Table button:nth-child(96),
+.Table button:nth-child(97),
+.Table button:nth-child(98),
+.Table button:nth-child(99),
+.Table button:nth-child(100),
+.Table button:nth-child(101),
+.Table button:nth-child(102),
+.Table button:nth-child(103),
+.Table button:nth-child(104),
+.Table button:nth-child(105),
+.Table button:nth-child(106) {
+	margin-top: 5rem;
+}
+
+.ExtendedTable {
+	display: grid;
+	grid-template-columns: repeat(32, 1fr);
+	grid-gap: 0;
+	position: relative;
+	width: calc(5.3rem * 32);
+	height: calc(6rem * 7);
+}
+
+.ExtendedTable button:nth-child(2) {
+	grid-column-start: -2;
+}
+
+.ExtendedTable button:nth-child(5), .ExtendedTable button:nth-child(13) {
+	grid-column-start: 27;
+}
+
+.ExtendedTable button:nth-child(21), .ExtendedTable button:nth-child(39) {
+	grid-column-start: 17;
+}
