@@ -1,0 +1,11 @@
+.AtomicNumber {
+	font-size:.8rem;
+	font-weight: bold;
+	margin-top: .5rem;
+}
+
+.Symbol {
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin-top: .1rem;
+}
