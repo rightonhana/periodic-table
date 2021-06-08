@@ -1,10 +1,9 @@
-import typeColor from "../../const/typeColor";
+import ElementCategories from "../../enums/ElementCategories";
 
 export interface ValueProps {
 	/** Value render */
 	value: string;
-
-	color?: keyof typeof typeColor;
+	color?: ElementCategories;
 }
 
 export default ValueProps;
