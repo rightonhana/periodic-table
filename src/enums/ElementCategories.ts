@@ -1,14 +1,14 @@
 export enum ElementCategories {
-	ACTINIDE = "actinide",
-	ALKALI_METAL = "alkali metal",
-	ALKALINE_EARTH_METAL = "alkaline earth metal",
-	LANTHANIDE = "lanthanide",
-	METALLOID = "metalloid",
-	NOBLE_GAS = "noble gas",
-	POST_TRANSITION_METAL = "post transition metal",
-	REACTIVE_NONMETAL = "reactive nonmetal",
-	TRANSITION_METAL = "transition metal",
-	UNKNOWN = "unknown"
+	ACTINIDE = "ACTINIDE",
+	ALKALI_METAL = "ALKALI_METAL",
+	ALKALINE_EARTH_METAL = "ALKALINE_EARTH_METAL",
+	LANTHANIDE = "LANTHANIDE",
+	METALLOID = "METALLOID",
+	NOBLE_GAS = "NOBLE_GAS",
+	POST_TRANSITION_METAL = "POST_TRANSITION_METAL",
+	REACTIVE_NONMETAL = "REACTIVE_NONMETAL",
+	TRANSITION_METAL = "TRANSITION_METAL",
+	UNKNOWN = "UNKNOWN"
 }
 
 export default ElementCategories;
