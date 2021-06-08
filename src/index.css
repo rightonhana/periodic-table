@@ -12,12 +12,16 @@
 	--alkaline-earth-metal: #C62828;
 	--lan­thanide: #AD1457;
 	--metalloid: #00695C;
-	--actinide: #4527A0;
+	--actinide: tomato;
 	--transition-metal: #283593;
 	--post-​transition-metal: #1565C0;
 	--reactive-nonmetal: #0277BD;
 	--noble-gas: #00838F;
 	--other: #2E7D32;
+	--preview-element-size: 15rem;
+	--preview-inner-element-size: 14.7rem;
+	--element-size: 5rem;
+	--inner-element-size: 4.7rem;
 }
 
 /* Apply a light color scheme */
@@ -39,5 +43,6 @@ body {
 	color: var(--text);
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
+	height: 100vh;
 	padding: 0;
 }

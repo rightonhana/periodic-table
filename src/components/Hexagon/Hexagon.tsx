@@ -2,34 +2,57 @@ import {FC} from "react";
 import {css} from "@emotion/css";
 import HexagonProps from "./HexagonProps";
 
-//border-radius: 50%;
-//background-repeat: no-repeat;
-
-//clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-//clip-path: polygon(50% 10%, 100% 30%, 100% 70%, 50% 90%, 0 70%, 0 30%);
-export const Hexagon: FC<HexagonProps> = ({color, ...props}) => <button className={
+export const Hexagon: FC<HexagonProps> = ({
+	color,
+	name,
+	children,
+	...props
+}) => <button className={
 	css`
 		background-color: var(--element);
 		border: none;
 		padding: 0;
+		margin: 0;
 		font: inherit;
 		outline: inherit;
-		height: 10vmin;
-		width: 10vmin;
+		height: var(--element-size);
+		width: var(--element-size);
 		color: inherit;
 		display: flex;
 		clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 		flex-direction: column;
-		justify-content: flex-start;
+		justify-content: center;
 		align-items: center;
 		cursor: pointer;
 		user-select: none;
+		transition: transform 0.2s ease-in-out;
 
 		:hover, :focus {
 			background-color: var(${color});
-			color: var(--element);
+			z-index: 1;
+			transform: scale(1.3);
+			div {
+				color: var(${color});
+			}
 		}
-	`
-} {...props}/>
+
+	`}
+	title={name}
+	{...props}
+>
+	<div className={css`
+		color: var(--element);
+		clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+		height: var(--inner-element-size);
+		width: var(--inner-element-size);
+		background-color: var(--body);
+
+		:hover, :focus {
+			color: var(${color});
+		}
+	`}>
+		{children}
+	</div>
+</button>
 
 export default Hexagon;
