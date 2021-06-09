@@ -8,12 +8,15 @@ export const Element: FC<ElementProps> = ({
 	symbol,
 	atomicNumber,
 	color,
+	currentCategory,
 	...props
-}) => (
-	<Hexagon color={color} name={name} {...props}>
+}) => {
+	
+	return (
+	<Hexagon color={color} name={name} currentCategory={currentCategory} {...props}>
 		<div className={styles.AtomicNumber}>{atomicNumber}</div>
 		<div className={styles.Symbol}>{symbol}</div>
 	</Hexagon>
 );
-
+	}
 export default Element;
