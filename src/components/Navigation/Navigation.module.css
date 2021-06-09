@@ -1,0 +1,62 @@
+.Navigation {
+	display: flex;
+	color: var(--data);
+	list-style: none;
+}
+
+.Navigation button {
+	background: none;
+	color: inherit;
+	margin: 0 .5rem;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.Navigation .EPTButton {
+	color: blue;
+}
+.Navigation .EPTButton:hover {
+	color: white;
+}
+
+.Actinide:hover {
+	color: var(--actinide);
+}
+
+.AlkaliMetal:hover {
+	color: var(--alkali-metal);
+}
+
+.AlkalineEarthMetal:hover {
+	color: var(--alkaline-earth-metal);
+}
+
+.Lanthanide:hover {
+	color: var(--lanthanide);
+}
+
+.MetalloidG:hover {
+	color: var(--metalloidG);
+}
+
+.NobleGas {
+	color: var(--noble-gas);
+}
+
+.PostTransitionMetal:hover {
+	color: var(--post-transition-metal);
+}
+
+.ReactiveNonmetal:hover {
+	color: var(--reactive-nonmetal);
+}
+
+.TransitionMetal:hover {
+	color: var(--transition-metal);
+}
+
+.Unknown:hover {
+	color: var(--unknown);
+}
