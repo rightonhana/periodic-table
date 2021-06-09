@@ -239,7 +239,7 @@ export const elements = [
 	tennessine,
 	oganesson,
 	ununennium,
-	unbinilium,	
+	unbinilium
 ];
 
 export default elements;
