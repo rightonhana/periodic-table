@@ -5,6 +5,7 @@ import ElementData from "../../types/ElementData";
 import styles from "./Table.module.css";
 import CategoryColors from "../../enums/CategoryColors";
 import ElementInfo from "../ElementInfo";
+import cx from 'classnames'
 
 export const Table: FC<TableProps> = ({width = 0, height = 0, elements, extended, currentCategory, elementShowing, onElementClick, ...props}) => {
 	const elementsToRender= elements.map((element: ElementData, index) => <Element
@@ -18,11 +19,18 @@ export const Table: FC<TableProps> = ({width = 0, height = 0, elements, extended
 		/>
 	);
 
+	const elementsWithInfo = elementsToRender.splice(1,0, <ElementInfo key={"element-data"} element={elementShowing ? elementShowing : elements[0]}/>);
+
+	const classes = cx({
+		[styles.ExtendedTable]: extended,
+		[styles.Table]: !extended,
+		[styles.ElementInfo]: elementShowing !== undefined
+	});
 	return (
-		<div className={extended ? styles.ExtendedTable : styles.Table}>
+		<div className={classes}>
 			{
 				elementShowing !== undefined
-					? elementsToRender.splice(1,0, <ElementInfo element={elementShowing ? elementShowing : elements[0]}/>)
+					? elementsWithInfo
 					: elementsToRender
 			}
 		</div>
